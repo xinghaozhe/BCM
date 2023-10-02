@@ -1,0 +1,6 @@
+---- DeceCount Matches (5 in 2 files) ----
+Can.c (souces\user_src)://extern void DeceCount(void);   
+Can.c (souces\user_src):/*³ÌÐòÃû³Æ£ºuint DeceCount(uchar speed)                              */
+Can.c (souces\user_src):uint DeceCount(uint speed)           
+Can.c (souces\user_src):    Dececountvalue =   DeceCount(VehicleSpeed);
+Can.h (souces\user_src):extern uint DeceCount(uint speed);  

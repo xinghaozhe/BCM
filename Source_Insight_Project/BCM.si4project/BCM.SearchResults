@@ -1,0 +1,6 @@
+---- ONSEINITEeprom Matches (5 in 3 files) ----
+main.c (user_src) line 693 : /*程序名称：void ONSEINITEeprom(void)                                                 */
+main.c (user_src) line 703 : void ONSEINITEeprom(void)
+main.h (user_src) line 44 : extern void ONSEINITEeprom(void);
+sys_init.c (user_src) line 39 : extern void ONSEINITEeprom(void);
+System_Init in sys_init.c (user_src) :     //   ONSEINITEeprom(); //第一次启动初始化EEPROM 

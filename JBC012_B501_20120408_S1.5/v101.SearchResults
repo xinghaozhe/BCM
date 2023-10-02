@@ -1,0 +1,4 @@
+---- ScanHazzardKeys Matches (3 in 1 files) ----
+Turnlamp_drv.c (souces\user_src):/*³ÌÐòÃû³Æ£ºVoid ScanHazzardKeys(void)                               */
+Turnlamp_drv.c (souces\user_src):void ScanHazzardKeys(void)
+Turnlamp_drv.c (souces\user_src):      ScanHazzardKeys();

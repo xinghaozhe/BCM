@@ -1,0 +1,3216 @@
+
+Map of Debug\v1_0.sm8 from link file Debug\v1_0.lkf - Tue Apr 10 10:09:50 2012
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 000081a3 length   291 segment .const
+start 000081fb end 000111c7 length 36812 segment .text
+start 00004000 end 00004000 length     0 segment .eeprom
+start 00000000 end 00000000 length     0 segment .bsct
+start 00000000 end 0000000a length    10 segment .ubsct
+start 0000000a end 0000000a length     0 segment .bit
+start 0000000a end 0000000a length     0 segment .share
+start 00000100 end 00000150 length    80 segment .data, initialized
+start 000081ab end 000081fb length    80 segment .data, from
+start 00000150 end 00000844 length  1780 segment .bss
+start 00000000 end 00024bd6 length 150486 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 000081a3 end 000081ab length     8 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+D:\Program Files\COSMIC\CXSTM8\Lib\crtsi.sm8:
+start 000081fb end 00008247 length    76 section .text
+start 00000150 end 00000150 length     0 section .bss
+start 00000000 end 00000000 length     0 section .ubsct
+
+Debug\can_nm_osek.o:
+start 00008247 end 00008bcf length  2440 section .text
+start 00000100 end 00000117 length    23 section .data
+start 00000150 end 00000189 length    57 section .bss
+start 00000000 end 00000bda length  3034 section .debug
+
+Debug\decry.o:
+start 00008bcf end 00008d26 length   343 section .text
+start 00000189 end 000001bd length    52 section .bss
+start 00000bda end 00000db0 length   470 section .debug
+start 00008080 end 0000809a length    26 section .const
+
+Debug\domelamp_drv.o:
+start 00008d26 end 00008e8c length   358 section .text
+start 000001bd end 000001cf length    18 section .bss
+start 00000db0 end 00001813 length  2659 section .debug
+
+Debug\main.o:
+start 00008e8c end 00009567 length  1755 section .text
+start 00000117 end 0000011c length     5 section .data
+start 000001cf end 000001f7 length    40 section .bss
+start 00001813 end 00002856 length  4163 section .debug
+
+Debug\timer2_3.o:
+start 00009567 end 000098b2 length   843 section .text
+start 00002856 end 00003ace length  4728 section .debug
+
+Debug\stm8_adc.o:
+start 000098b2 end 00009d91 length  1247 section .text
+start 00003ace end 0000533b length  6253 section .debug
+start 0000809a end 000080b0 length    22 section .const
+
+Debug\stm8_awu.o:
+start 00009d91 end 00009f0d length   380 section .text
+start 0000533b end 0000626d length  3890 section .debug
+start 000080b0 end 000080f4 length    68 section .const
+
+Debug\stm8_clk.o:
+start 00009f0d end 0000a5e1 length  1748 section .text
+start 0000626d end 0000842b length  8638 section .debug
+start 000080f4 end 00008116 length    34 section .const
+
+Debug\lin.o:
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .data *** removed ***
+start ******** end ******** length     0 section .bss *** removed ***
+start 0000842b end 0000a64c length  8737 section .debug
+
+Debug\stm8_exti.o:
+start 0000a5e1 end 0000a718 length   311 section .text
+start 0000a64c end 0000b298 length  3148 section .debug
+start 00008116 end 0000812d length    23 section .const
+
+Debug\stm8_flash.o:
+start 0000a718 end 0000ac86 length  1390 section .text
+start 0000b298 end 0000c90b length  5747 section .debug
+start 0000812d end 0000815d length    48 section .const
+
+Debug\stm8_gpio.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000c90b end 0000d8ab length  4000 section .debug
+start ******** end ******** length     0 section .const *** removed ***
+
+Debug\stm8_itc.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000d8ab end 0000e70d length  3682 section .debug
+start ******** end ******** length     0 section .const *** removed ***
+
+Debug\stm8_iwdg.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000e70d end 0000f2c9 length  3004 section .debug
+start ******** end ******** length     0 section .const *** removed ***
+
+Debug\stm8_linuart.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000f2c9 end 00010cde length  6677 section .debug
+start ******** end ******** length     0 section .const *** removed ***
+
+Debug\stm8_rst.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00010cde end 00011747 length  2665 section .debug
+start ******** end ******** length     0 section .const *** removed ***
+
+Debug\stm8_spi.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00011747 end 00012e07 length  5824 section .debug
+start ******** end ******** length     0 section .const *** removed ***
+
+Debug\stm8_usart.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00012e07 end 000149fb length  7156 section .debug
+start ******** end ******** length     0 section .const *** removed ***
+
+Debug\stm8_wwdg.o:
+start 0000ac86 end 0000acdb length    85 section .text
+start 000149fb end 000153fa length  2559 section .debug
+start 0000815d end 00008174 length    23 section .const
+
+Debug\adc_drv.o:
+start 0000acdb end 0000ae20 length   325 section .text
+start 000001f7 end 00000236 length    63 section .bss
+start 000153fa end 00015eda length  2784 section .debug
+start 00008174 end 00008179 length     5 section .const
+
+Debug\can.o:
+start 0000ae20 end 0000b79a length  2426 section .text
+start 0000011c end 00000122 length     6 section .data
+start 00000236 end 000003f7 length   449 section .bss
+start 00015eda end 000182f8 length  9246 section .debug
+
+Debug\defrost_drv.o:
+start 0000b79a end 0000b89b length   257 section .text
+start 000003f7 end 00000402 length    11 section .bss
+start 000182f8 end 00018d7e length  2694 section .debug
+
+Debug\horn_drv.o:
+start 0000b89b end 0000ba72 length   471 section .text
+start 00000402 end 00000416 length    20 section .bss
+start 00018d7e end 00019927 length  2985 section .debug
+start 00008179 end 0000817d length     4 section .const
+
+Debug\lock_drv.o:
+start 0000ba72 end 0000c1e2 length  1904 section .text
+start 00000122 end 00000125 length     3 section .data
+start 00000416 end 0000046f length    89 section .bss
+start 00019927 end 0001ac3e length  4887 section .debug
+
+Debug\rke_drv1.o:
+start 0000c1e2 end 0000c9c1 length  2015 section .text
+start 00000125 end 0000012c length     7 section .data
+start 0000046f end 000004bc length    77 section .bss
+start 0001ac3e end 0001bfdd length  5023 section .debug
+start 0000817d end 00008197 length    26 section .const
+
+Debug\st79_it.o:
+start 0000c9c1 end 0000d038 length  1655 section .text
+start ******** end ******** length     0 section .data *** removed ***
+start 000004bc end 000004c5 length     9 section .bss
+start 0001bfdd end 0001d1a4 length  4551 section .debug
+
+Debug\st79_tim4.o:
+start 0000d038 end 0000d05a length    34 section .text
+start 0001d1a4 end 0001dac0 length  2332 section .debug
+
+Debug\sys_init.o:
+start 0000d05a end 0000d1e1 length   391 section .text
+start 0001dac0 end 0001e533 length  2675 section .debug
+
+Debug\turnlamp_drv.o:
+start 0000d1e1 end 0000dd2d length  2892 section .text
+start 0000012c end 0000012d length     1 section .data
+start 000004c5 end 00000534 length   111 section .bss
+start 0001e533 end 0001f6a7 length  4468 section .debug
+start 00008197 end 0000819b length     4 section .const
+
+Debug\udsoncan.o:
+start 0000dd2d end 0000fe06 length  8409 section .text
+start 0000012d end 00000138 length    11 section .data
+start 00000534 end 000007bc length   648 section .bss
+start 0001f6a7 end 00021246 length  7071 section .debug
+start 0000819b end 0000819f length     4 section .const
+
+Debug\udsoncandtc.o:
+start 0000fe06 end 000107f5 length  2543 section .text
+start 00000138 end 00000150 length    24 section .data
+start 000007bc end 000007de length    34 section .bss
+start 00021246 end 000224ab length  4709 section .debug
+
+Debug\warm_drv.o:
+start 000107f5 end 00010da0 length  1451 section .text
+start 000007de end 00000839 length    91 section .bss
+start 000224ab end 00023799 length  4846 section .debug
+start 0000819f end 000081a3 length     4 section .const
+
+Debug\window_drv.o:
+start 00010da0 end 00010ec0 length   288 section .text
+start 00000839 end 00000844 length    11 section .bss
+start 00023799 end 00024291 length  2808 section .debug
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lreg.o:
+start 00000000 end 00000004 length     4 section .ubsct
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)xreg.o:
+start 00000004 end 00000007 length     3 section .ubsct
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)yreg.o:
+start 00000007 end 0000000a length     3 section .ubsct
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)cmulx.o:
+start 00010ec0 end 00010ed4 length    20 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)idiv.o:
+start 00010ed4 end 00010ef2 length    30 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)imul.o:
+start 00010ef2 end 00010f13 length    33 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)itolx.o:
+start 00010f13 end 00010f21 length    14 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)jtab.o:
+start 00010f21 end 00010f4e length    45 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ladc.o:
+start 00010f4e end 00010f5f length    17 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ladd.o:
+start 00010f5f end 00010f77 length    24 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lcmp.o:
+start 00010f77 end 00010f97 length    32 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lgadc.o:
+start 00010f97 end 00010fa7 length    16 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lgadd.o:
+start 00010fa7 end 00010fbe length    23 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lgsbc.o:
+start 00010fbe end 00010fd4 length    22 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)llsh.o:
+start 00010fd4 end 00010fe3 length    15 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lsub.o:
+start 00010fe3 end 00010ffb length    24 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ltor.o:
+start 00010ffb end 0001100d length    18 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ludiv.o:
+start 0001100d end 00011022 length    21 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ldiv.o:
+start 00011022 end 0001110f length   237 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lgneg.o:
+start 0001110f end 00011122 length    19 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lneg.o:
+start 00011122 end 00011137 length    21 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lursh.o:
+start 00011137 end 00011146 length    15 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lzmp.o:
+start 00011146 end 00011158 length    18 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)rtol.o:
+start 00011158 end 0001116a length    18 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)utol.o:
+start 0001116a end 00011175 length    11 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)utolx.o:
+start 00011175 end 0001117c length     7 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)umul.o:
+start 0001117c end 000111b8 length    60 section .text
+
+(D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)xymvx.o:
+start 000111b8 end 000111c7 length    15 section .text
+
+Debug\stm8_interrupt_vector.o:
+start 00024291 end 00024bd6 length  2373 section .debug
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\adc_drv.o:
+f_ADC_Scan                              16   (7)
+f_ADC_Start                              2   (2)
+f_ADC_Stop                          >    2   (2)
+f_GetADCresultAverage                   25   (21)
+
+Debug\can.o:
+f_BUSoff                                 5   (2)
+f_CANHardwave_Init                      11   (2) *** Recursive ***
+f_CANRX                                 23   (5)
+f_CANSend                               16   (2)
+f_CAN_DisableDiagMode               >    2   (2)
+f_CAN_EnableDiagMode                     3   (3)
+f_CAN_Init                               3   (3)
+f_CAN_Send1                             14   (8)
+f_CAN_WakeUp                             2   (2)
+f_CAN_send2                             35   (21)
+f_CANenble                               2   (2)
+f_CanCanInterruptDisable            >    2   (2)
+f_CanCanInterruptRestore                 2   (2)
+f_CanMsgTransmit                         6   (6)
+f_CanSendMsg                            48   (13)
+f_ClearDTC                               2   (2)
+f_DeceCount                             12   (12)
+f_DeceSettingValue                       4   (4)
+f_DecelerationSetting                   27   (13)
+f_DecelerationThresholds                18   (6)
+f_DiagnosticateTactic               >    2   (2)
+f_MMXG3b01                          >   39   (4)
+f_NM_RecMsgSave                         21   (16)
+f_SendDTC                           >    2   (2)
+f_WriteDTC                               2   (2)
+f_clearCANrx                             3   (3)
+f_writeHazardecestate               >   22   (8)
+f_writeRearfogbutton                >   22   (8)
+
+Debug\can_nm_osek.o:
+f_NMInit_Exit_Normal                    50   (2)
+f_NMInit_WaitSleep_Limphome              2   (2)
+f_NMInit_WaitSleep_Normal                2   (2)
+f_NM_FunBusOff                           2   (2)
+f_NM_Function_Main                      89   (2) *** Recursive ***
+f_NM_Function_OSEK                      87   (24) *** Recursive ***
+f_NM_Limphome_Presleep_TmaxTimeout       4   (2)
+f_NM_Limphome_Presleep_TransitMsg        2   (2)
+f_NM_Limphome_TerrorTimeout             50   (2)
+f_NM_Limphome_TransitMsg                 2   (2)
+f_NM_NodeSkip                           13   (13)
+f_NM_NodeSkipDispose                    50   (2)
+f_NM_Normal_CanSleep                >    2   (2)
+f_NM_Normal_Presleep_TtypTimeout        50   (2)
+f_NM_Normal_TmaxTimeout                 52   (2)
+f_NM_Normal_TransitMsg                   2   (2)
+f_NM_Normal_TtypTimeout                 50   (2)
+f_NM_OSEK_Init                          13   (2) *** Recursive ***
+f_NM_RecMsg                             63   (13)
+f_NM_RecMsg_StandardNM                  27   (14)
+f_NM_StateShutDown                       2   (2)
+f_NM_Timer_Main                          5   (5)
+f_NN_OSEK_StateDetect                    4   (2)
+
+Debug\decry.o:
+f_DECRYPT                               11   (11)
+f_Decrypt                               18   (7)
+
+Debug\defrost_drv.o:
+f_JudgeDefrostDriver                     5   (2)
+f_ScanBatteryVoltage                    29   (4)
+f_ScanDefrostSwitch                      2   (2)
+
+Debug\domelamp_drv.o:
+f_DomeLampsDriver                        5   (2)
+f_JudgeDomeLampDriver                    7   (2)
+
+Debug\horn_drv.o:
+f_JudgeHornDriver                        6   (2)
+f_ScanH4021InData                        9   (3)
+f_ScanHornSwitch                         2   (2)
+f_ScanIgnSwitch                          5   (2)
+f_ScanStandbyIgnSwitch                   2   (2)
+
+Debug\lock_drv.o:
+f_Crash_CAN                              2   (2)
+f_JudgeLockDriver                        5   (2)
+f_Lockhot                                3   (3)
+f_MachineKeyDrv                          2   (2)
+f_ResumeWindowDriverState                2   (2)
+f_SaveWindowDriverState                  2   (2)
+f_ScanAllLockState                       2   (2)
+f_ScanCentralLockSwitch                 30   (5)
+f_ScanCrashInSignal                      4   (2)
+f_ScanStandByCrashInSignal               2   (2)
+f_ScanTrunkSwitch                        2   (2)
+f_TRUNKwarm                              2   (2)
+f_WarmStatusArithmetic                  21   (7)
+
+Debug\main.o:
+f_InOutputWake                          11   (2) *** Recursive ***
+f_InPutWake                             11   (2) *** Recursive ***
+f_ONSEINITEeprom                    >   35   (8)
+f_OneSecondWake                     >    9   (2)
+f_SystemClock                            2   (2)
+f_WakeInit                          >    3   (3)
+f_WakeUp                                13   (2) *** Recursive ***
+f_Weeprommain                           25   (11)
+f_assert_failed                          4   (4)
+f_delay                             >    5   (5)
+f_delay_10us                             6   (6)
+f_delay_ms                          >    6   (6)
+f_main                              >   52   (2) *** Recursive ***
+
+Debug\rke_drv1.o:
+f_Check_RKE_Receive_Timeout         >   12   (2)
+f_DECODE_PROC                           35   (6)
+f_INITrkenumber                         30   (3)
+f_RKEBatteryVoltage                     30   (3)
+f_RKE_RECEIVE_RESET                     10   (2)
+f_RKE_RECEIVE_STOP                  >   10   (2)
+f_RKEnumberRead                          6   (3)
+f_RkeStudy                              29   (2)
+f_SAVE_BatterVol_CODE                   27   (13)
+f_SAVE_SERIAL_NUMBER                    27   (13)
+f_SAVE_SYNC_CODE                        27   (13)
+f_SAVEunlockdriverstate             >   23   (9)
+f_ScanRkeKeys                           38   (3)
+
+Debug\st79_it.o:
+f_ADC_IRQHandler                    >    5   (5)
+f_AWU_IRQHandler                    >    6   (6)
+f_CAN_RX_IRQHandler                 >    9   (9)
+f_CAN_TX_IRQHandler                 >   20   (11) *** Recursive ***
+f_CLK_IRQHandler                    >    5   (5)
+f_EEPROM_EEC_IRQHandler             >    5   (5)
+f_EXTI_PORTA_IRQHandler             >    5   (5)
+f_EXTI_PORTB_IRQHandler             >    5   (5)
+f_EXTI_PORTC_IRQHandler             >    5   (5)
+f_EXTI_PORTD_IRQHandler             >   27   (17)
+f_EXTI_PORTE_IRQHandler             >    5   (5)
+f_I2C_IRQHandler                    >    5   (5)
+f_LINUART_RX_IRQHandler             >    5   (5)
+f_LINUART_TX_IRQHandler             >    5   (5)
+f_NonHandledInterrupt               >    5   (5)
+f_SPI_IRQHandler                    >    5   (5)
+f_TIM1_CAP_COM_IRQHandler           >    5   (5)
+f_TIM1_UPD_OVF_TRG_BRK_IRQHandler   >    5   (5)
+f_TIM2_CAP_COM_IRQHandler           >   13   (11)
+f_TIM2_UPD_OVF_BRK_IRQHandler       >   13   (11)
+f_TIM3_CAP_COM_IRQHandler           >   23   (13)
+f_TIM3_UPD_OVF_BRK_IRQHandler       >   21   (11)
+f_TIM4_UPD_OVF_IRQHandler           >  100   (11) *** Recursive ***
+f_TLI_IRQHandler                    >    5   (5)
+f_TRAP_IRQHandler                   >    5   (5)
+f_USART_RX_IRQHandler               >    5   (5)
+f_USART_TX_IRQHandler               >    5   (5)
+
+Debug\st79_tim4.o:
+f_TIM4_Clear_Int_Flag                    2   (2)
+f_TIM4_Init                              2   (2)
+
+Debug\stm8_adc.o:
+f_ADC_ClearFlag                     >    2   (2)
+f_ADC_Cmd                                7   (3)
+f_ADC_ConversionConfig                   9   (5)
+f_ADC_DeInit                        >    2   (2)
+f_ADC_ExternalTriggerConfig              8   (4)
+f_ADC_GetConversionValue            >    6   (6)
+f_ADC_GetFlagStatus                 >    3   (3)
+f_ADC_GetITStatus                   >    3   (3)
+f_ADC_GetValue                           9   (7)
+f_ADC_ITCmd                         >    7   (3)
+f_ADC_Init                          >   13   (4)
+f_ADC_PrescalerConfig                    7   (3)
+f_ADC_SchmittTriggerConfig               8   (4)
+f_ADC_StartConversion               >    2   (2)
+f_ADC_StructInit                    >    2   (2)
+f_ADC_init                               2   (2)
+
+Debug\stm8_awu.o:
+f_AWU_AutoLSICalibration            >   38   (11)
+f_AWU_ClearFlag                     >    2   (2)
+f_AWU_Cmd                           >    2   (2)
+f_AWU_DeInit                        >    2   (2)
+f_AWU_GetFlagStatus                 >    2   (2)
+f_AWU_IdleModeEnable                >    2   (2)
+f_AWU_Init                               7   (3)
+f_AWU_LSICalibrationConfig              27   (12)
+f_AWU_ReInitCounter                 >    2   (2)
+
+Debug\stm8_clk.o:
+f_CLK_AdjustHSICalibrationValue     >    7   (3)
+f_CLK_CANConfig                     >    7   (3)
+f_CLK_CCOCmd                             7   (3)
+f_CLK_CCOConfig                     >   10   (3)
+f_CLK_ClearITPendingBit             >    7   (3)
+f_CLK_ClockSecuritySystemEnable     >    2   (2)
+f_CLK_ClockSwitchCmd                >    7   (3)
+f_CLK_ClockSwitchConfig                 14   (10)
+f_CLK_DeInit                        >    2   (2)
+f_CLK_GetClockFreq                      26   (11)
+f_CLK_GetFlagStatus                 >   11   (7)
+f_CLK_GetITStatus                   >    8   (4)
+f_CLK_GetSYSCLKSource               >    2   (2)
+f_CLK_HSECmd                        >    7   (3)
+f_CLK_HSICmd                        >    7   (3)
+f_CLK_HSIConfig                          8   (4)
+f_CLK_ITConfig                      >    8   (4)
+f_CLK_Init                          >   19   (5)
+f_CLK_LSICmd                        >    7   (3)
+f_CLK_LSIConfig                     >    7   (3)
+f_CLK_PeripheralClockConfig              8   (4)
+f_CLK_SWIMConfig                    >    7   (3)
+f_CLK_SYSCLKConfig                  >    7   (3)
+f_CLK_SYSCLKEmergencyClear          >    2   (2)
+f_CLK_StructInit                    >    2   (2)
+
+Debug\stm8_exti.o:
+f_EXTI_DeInit                       >    2   (2)
+f_EXTI_GetExtIntSensitivity         >    8   (4)
+f_EXTI_GetTLISensitivity            >    3   (3)
+f_EXTI_SetExtIntSensitivity              8   (4)
+f_EXTI_SetTLISensitivity            >    7   (3)
+
+Debug\stm8_flash.o:
+f_FLASH_ClearFlags                  >    3   (3)
+f_FLASH_DeInit                           3   (3)
+f_FLASH_EraseBlock                  >   16   (12)
+f_FLASH_EraseByte                   >   13   (9)
+f_FLASH_EraseOptionByte             >   13   (9)
+f_FLASH_GetBootMemSize              >   10   (6)
+f_FLASH_GetITStatus                 >    2   (2)
+f_FLASH_GetLowPowerMode             >    2   (2)
+f_FLASH_GetProgrammingTime          >    2   (2)
+f_FLASH_ITConfig                    >    2   (2)
+f_FLASH_Lock                        >    7   (3)
+f_FLASH_ProgramBlock                >   21   (17)
+f_FLASH_ProgramByte                     14   (10)
+f_FLASH_ProgramOptionByte           >   14   (10)
+f_FLASH_ProgramWord                 >   10   (6)
+f_FLASH_ReadByte                    >   13   (9)
+f_FLASH_ReadOptionByte              >   17   (13)
+f_FLASH_SetLowPowerMode             >    7   (3)
+f_FLASH_SetProgrammingTime          >    7   (3)
+f_FLASH_Unlock                           7   (3)
+f_FLASH_WaitForLastOperation             4   (4)
+
+Debug\stm8_wwdg.o:
+f_WWDG_GetControlValue              >    2   (2)
+f_WWDG_Init                              8   (4)
+f_WWDG_Refresh                           7   (3)
+f_WWDG_SWReset                      >    2   (2)
+
+Debug\sys_init.o:
+f_Clear_WDT                              2   (2)
+f_GPIO_SysInit                           6   (2)
+f_GPIO_UserInit                          4   (4)
+f_RAM_Init                               2   (2)
+f_System_Init                           29   (2)
+
+Debug\timer2_3.o:
+f_TIM2_CCR_WRITE                         5   (5)
+f_TIM2_Clear_IT_Flag                     2   (2)
+f_TIM2_Counter_Cycle_OVIE_init          12   (4)
+f_TIM2_Disable_IT                        2   (2)
+f_TIM2_Enable_IT                    >    2   (2)
+f_TIM2_OCMP_Init                    >    8   (8)
+f_TIM2_PWM_Init                          8   (8)
+f_TIM3_CCR_WRITE                    >    5   (5)
+f_TIM3_Clear_IT_Flag                     2   (2)
+f_TIM3_Counter_Cycle_OVIE_init          12   (4)
+f_TIM3_Disable_IT                        2   (2)
+f_TIM3_Enable_IT                    >    2   (2)
+f_TIM3_OCMP_Init                         8   (8)
+f_TIM3_PWM_Init                     >    8   (8)
+
+Debug\turnlamp_drv.o:
+f_FindCar                                2   (2)
+f_JudgeTurnLampDrv                       2   (2)
+f_SFLED                                  2   (2)
+f_ScanHazzardKeys                        2   (2)
+f_ScanStandByHazzardKeys                 2   (2)
+f_ScanTurnLampKeys                       5   (2)
+f_ScanTurnLampState                     29   (4)
+f_Turnvcclow                             2   (2)
+f_turnbd                            >    8   (5)
+
+Debug\udsoncan.o:
+f_BCMsjs                                 5   (5)
+f_ClearDidvalue                          3   (3)
+f_ClearNPDUbuff                          4   (4)
+f_ClearRPDUbuff                          4   (4)
+f_DTCinit                                2   (2)
+f_Did2einit                              4   (4)
+f_Did2esave                             31   (6)
+f_LevelOneKeyArith                      36   (31)
+f_ReadDTCquantity                        5   (5)
+f_ReadDid22                             30   (16)
+f_ReadDidvalue                          12   (6)
+f_SaveDTCtoBuff                          8   (8)
+f_UDSDiag10                             11   (11)
+f_UDSDiag19                             26   (12)
+f_UDSDiag22                             41   (11)
+f_UDSDiag27                             47   (11)
+f_UDSDiag28                             11   (11)
+f_UDSDiag2e                             27   (15)
+f_UDSDiag31                             43   (13)
+f_UDSDiag3e                             11   (11)
+f_UDSDiag85                             10   (10)
+f_UDSclearDTC                           33   (8)
+f_UDSonCANDiag                          50   (3)
+f_UDSonCAN_netmain                      40   (5)
+f_UDSsendone                            14   (10)
+f_Weeprom                           >   11   (11)
+f_leveonekeytest                    >   38   (2)
+
+Debug\udsoncandtc.o:
+f_UDSDTC9001                            27   (2)
+f_UDSDTC9003                            27   (2)
+f_UDSDTC9007                            27   (2)
+f_UDSDTC900c                             2   (2)
+f_UDSDTC9011                            27   (2)
+f_UDSDTC9015                            27   (2)
+f_UDSDTC9023                            27   (2)
+f_UDSDTC9043                            27   (2)
+f_UDSDTC9045                            27   (2)
+f_UDSDTC9061                             2   (2)
+f_UDSDTC9067                             2   (2)
+f_UDSDTC9073                            29   (4)
+f_UDSDTC9083                            27   (2)
+f_UDSDTC9091                            27   (2)
+f_UDSDTC9093                            27   (2)
+f_UDSDTC9111                            27   (2)
+f_UDSDTC_main                           31   (2)
+f_UDSDTCd001                            27   (2)
+f_UDSDTCd002                            27   (2)
+f_UDSDTCd003                             2   (2)
+f_UDSDTCd004                             2   (2)
+f_UDSDTCd005                             2   (2)
+
+Debug\warm_drv.o:
+f_BuzzCANsend                            4   (4)
+f_BuzzerDrv                             11   (11)
+f_ClearBuzzdrv                           4   (4)
+f_JudgeWarmTypeAndDriver                13   (2)
+f_ScanAllDoorState                       2   (2)
+f_ScanFortifySWState                     2   (2)
+f_ScanKeyInState                         2   (2)
+f_ScanSeatPositionState                  2   (2)
+f_ScanSeatbeltBuckleState                2   (2)
+f_ScanSmallLampSwitch                    2   (2)
+f_ScanStandByDoorAjarSwitch              2   (2)
+f_ScanStandbySmallLampSwitch        >    2   (2)
+f_buzzdrv2                              11   (7)
+
+Debug\window_drv.o:
+f_ScanWindowKeys                        29   (4)
+f_WindowDown                             2   (2)
+f_WindowDriver                           4   (2)
+f_WindowStop                             2   (2)
+f_WindowUp                               2   (2)
+
+D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8:
+d_cmulx                                  3   (3)
+d_idiv                                   4   (4)
+d_imul                                   4   (4)
+d_itolx                                  3   (3)
+d_ladc                                   3   (3)
+d_ladd                                   3   (3)
+d_lcmp                                   3   (3)
+d_lgadc                                  3   (3)
+d_lgadd                                  3   (3)
+d_lgneg                             >    3   (3)
+d_lgsbc                                  3   (3)
+d_llsh                                   3   (3)
+d_lneg                              >    3   (3)
+d_lsub                                   3   (3)
+d_ltor                                   3   (3)
+d_ludv                                  15   (15)
+d_lursh                                  3   (3)
+d_lzmp                                   3   (3)
+d_rtol                                   4   (4)
+d_umul                                   4   (4)
+d_uitol                                  3   (3)
+d_uitolx                                 3   (3)
+d_xymvx                                  5   (5)
+
+Stack size: 152
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > f_ADC_ClearFlag: (2)
+
+   2 > f_ADC_DeInit: (2)
+
+   3 > f_ADC_GetConversionValue: (6)
+
+   4 > f_ADC_GetFlagStatus: (3)
+
+   5 > f_ADC_GetITStatus: (3)
+
+   6 > f_ADC_IRQHandler: (5)
+
+   7 > f_ADC_ITCmd: (3)
+   8      + f_assert_failed: (4)
+       
+   9 > f_ADC_Init: (4)
+  10      + f_ADC_Cmd: (3)
+  11      |    + f_assert_failed --> 8
+          | 
+  12      + f_ADC_ConversionConfig: (5)
+  13      |    + f_assert_failed --> 8
+          | 
+  14      + f_ADC_ExternalTriggerConfig: (4)
+  15      |    + f_assert_failed --> 8
+          | 
+  16      + f_ADC_PrescalerConfig: (3)
+  17      |    + f_assert_failed --> 8
+          | 
+  18      + f_ADC_SchmittTriggerConfig: (4)
+  19      |    + f_assert_failed --> 8
+          | 
+  20      + f_assert_failed --> 8
+       
+  21 > f_ADC_StartConversion: (2)
+
+  22 > f_ADC_Stop: (2)
+
+  23 > f_ADC_StructInit: (2)
+
+  24 > f_AWU_AutoLSICalibration: (11)
+  25      + f_AWU_LSICalibrationConfig: (12)
+  26      |    + f_assert_failed --> 8
+          | 
+  27      + f_CLK_GetClockFreq: (11)
+       
+  28 > f_AWU_ClearFlag: (2)
+
+  29 > f_AWU_Cmd: (2)
+
+  30 > f_AWU_DeInit: (2)
+
+  31 > f_AWU_GetFlagStatus: (2)
+
+  32 > f_AWU_IRQHandler: (6)
+
+  33 > f_AWU_IdleModeEnable: (2)
+
+  34 > f_AWU_ReInitCounter: (2)
+
+  35 > f_CAN_DisableDiagMode: (2)
+
+  36 > f_CAN_RX_IRQHandler: (9)
+
+  37 > f_CAN_TX_IRQHandler: (11)
+  38      + f_WakeUp: (2)
+  39      |    + f_CANHardwave_Init: (2)
+  40      |    |    + f_CAN_EnableDiagMode: (3)
+  41      |    |    + f_CAN_Init: (3)
+  42      |    |    + f_CAN_WakeUp: (2)
+  43      |    |    + f_CanCanInterruptRestore: (2)
+  44      |    |    + f_WakeUp --> 38
+          |    | 
+  45      |    + f_SystemClock: (2)
+  46      |    + f_WWDG_Refresh: (3)
+  47      |    |    + f_assert_failed --> 8
+          |    | 
+          | 
+       
+  48 > f_CLK_AdjustHSICalibrationValue: (3)
+  49      + f_assert_failed --> 8
+       
+  50 > f_CLK_CANConfig: (3)
+  51      + f_assert_failed --> 8
+       
+  52 > f_CLK_CCOConfig: (3)
+  53      + f_CLK_CCOCmd: (3)
+  54      |    + f_assert_failed --> 8
+          | 
+  55      + f_assert_failed --> 8
+       
+  56 > f_CLK_ClearITPendingBit: (3)
+  57      + f_assert_failed --> 8
+       
+  58 > f_CLK_ClockSecuritySystemEnable: (2)
+
+  59 > f_CLK_ClockSwitchCmd: (3)
+  60      + f_assert_failed --> 8
+       
+  61 > f_CLK_DeInit: (2)
+
+  62 > f_CLK_GetFlagStatus: (7)
+  63      + f_assert_failed --> 8
+       
+  64 > f_CLK_GetITStatus: (4)
+  65      + f_assert_failed --> 8
+       
+  66 > f_CLK_GetSYSCLKSource: (2)
+
+  67 > f_CLK_HSECmd: (3)
+  68      + f_assert_failed --> 8
+       
+  69 > f_CLK_HSICmd: (3)
+  70      + f_assert_failed --> 8
+       
+  71 > f_CLK_IRQHandler: (5)
+
+  72 > f_CLK_ITConfig: (4)
+  73      + f_assert_failed --> 8
+       
+  74 > f_CLK_Init: (5)
+  75      + f_CLK_ClockSwitchConfig: (10)
+  76      |    + f_assert_failed --> 8
+          | 
+  77      + f_CLK_HSIConfig: (4)
+  78      |    + f_assert_failed --> 8
+          | 
+  79      + f_assert_failed --> 8
+       
+  80 > f_CLK_LSICmd: (3)
+  81      + f_assert_failed --> 8
+       
+  82 > f_CLK_LSIConfig: (3)
+  83      + f_assert_failed --> 8
+       
+  84 > f_CLK_SWIMConfig: (3)
+  85      + f_assert_failed --> 8
+       
+  86 > f_CLK_SYSCLKConfig: (3)
+  87      + f_assert_failed --> 8
+       
+  88 > f_CLK_SYSCLKEmergencyClear: (2)
+
+  89 > f_CLK_StructInit: (2)
+
+  90 > f_CanCanInterruptDisable: (2)
+
+  91 > f_Check_RKE_Receive_Timeout: (2)
+  92      + f_RKE_RECEIVE_RESET: (2)
+  93      |    + f_EXTI_SetExtIntSensitivity: (4)
+  94      |    |    + f_assert_failed --> 8
+          |    | 
+  95      |    + f_TIM3_Disable_IT: (2)
+          | 
+       
+  96 > f_DiagnosticateTactic: (2)
+
+  97 > f_EEPROM_EEC_IRQHandler: (5)
+
+  98 > f_EXTI_DeInit: (2)
+
+  99 > f_EXTI_GetExtIntSensitivity: (4)
+ 100      + f_assert_failed --> 8
+       
+ 101 > f_EXTI_GetTLISensitivity: (3)
+
+ 102 > f_EXTI_PORTA_IRQHandler: (5)
+
+ 103 > f_EXTI_PORTB_IRQHandler: (5)
+
+ 104 > f_EXTI_PORTC_IRQHandler: (5)
+
+ 105 > f_EXTI_PORTD_IRQHandler: (17)
+ 106      + f_EXTI_SetExtIntSensitivity --> 93
+ 107      + f_RKE_RECEIVE_RESET --> 92
+       
+ 108 > f_EXTI_PORTE_IRQHandler: (5)
+
+ 109 > f_EXTI_SetTLISensitivity: (3)
+ 110      + f_assert_failed --> 8
+       
+ 111 > f_FLASH_ClearFlags: (3)
+
+ 112 > f_FLASH_EraseBlock: (12)
+ 113      + f_FLASH_WaitForLastOperation: (4)
+ 114      + f_assert_failed --> 8
+       
+ 115 > f_FLASH_EraseByte: (9)
+ 116      + f_FLASH_WaitForLastOperation --> 113
+ 117      + f_assert_failed --> 8
+       
+ 118 > f_FLASH_EraseOptionByte: (9)
+ 119      + f_FLASH_WaitForLastOperation --> 113
+ 120      + f_assert_failed --> 8
+       
+ 121 > f_FLASH_GetBootMemSize: (6)
+
+ 122 > f_FLASH_GetITStatus: (2)
+
+ 123 > f_FLASH_GetLowPowerMode: (2)
+
+ 124 > f_FLASH_GetProgrammingTime: (2)
+
+ 125 > f_FLASH_ITConfig: (2)
+
+ 126 > f_FLASH_Lock: (3)
+ 127      + f_assert_failed --> 8
+       
+ 128 > f_FLASH_ProgramBlock: (17)
+ 129      + f_FLASH_WaitForLastOperation --> 113
+ 130      + f_assert_failed --> 8
+       
+ 131 > f_FLASH_ProgramOptionByte: (10)
+ 132      + f_FLASH_WaitForLastOperation --> 113
+ 133      + f_assert_failed --> 8
+       
+ 134 > f_FLASH_ProgramWord: (6)
+ 135      + f_FLASH_WaitForLastOperation --> 113
+       
+ 136 > f_FLASH_ReadByte: (9)
+ 137      + f_assert_failed --> 8
+       
+ 138 > f_FLASH_ReadOptionByte: (13)
+ 139      + f_assert_failed --> 8
+       
+ 140 > f_FLASH_SetLowPowerMode: (3)
+ 141      + f_assert_failed --> 8
+       
+ 142 > f_FLASH_SetProgrammingTime: (3)
+ 143      + f_assert_failed --> 8
+       
+ 144 > f_I2C_IRQHandler: (5)
+
+ 145 > f_LINUART_RX_IRQHandler: (5)
+
+ 146 > f_LINUART_TX_IRQHandler: (5)
+
+ 147 > f_MMXG3b01: (4)
+ 148      + f_CAN_send2: (21)
+ 149      |    + f_CAN_Send1: (8)
+ 150      |    |    + f_CanMsgTransmit: (6)
+          |    | 
+          | 
+       
+ 151 > f_NM_Normal_CanSleep: (2)
+
+ 152 > f_NonHandledInterrupt: (5)
+
+ 153 > f_ONSEINITEeprom: (8)
+ 154      + f_ClearDTC: (2)
+ 155      + f_Clear_WDT: (2)
+ 156      + f_FLASH_ProgramByte: (10)
+ 157      |    + f_FLASH_WaitForLastOperation --> 113
+ 158      |    + f_assert_failed --> 8
+          | 
+ 159      + f_SAVE_SERIAL_NUMBER: (13)
+ 160      |    + f_Clear_WDT --> 155
+ 161      |    + f_FLASH_ProgramByte --> 156
+          | 
+       
+ 162 > f_OneSecondWake: (2)
+ 163      + f_AWU_Init: (3)
+ 164      |    + f_assert_failed --> 8
+          | 
+       
+ 165 > f_RKE_RECEIVE_STOP: (2)
+ 166      + f_EXTI_SetExtIntSensitivity --> 93
+ 167      + f_TIM3_Disable_IT --> 95
+       
+ 168 > f_SAVEunlockdriverstate: (9)
+ 169      + f_Clear_WDT --> 155
+ 170      + f_FLASH_ProgramByte --> 156
+       
+ 171 > f_SPI_IRQHandler: (5)
+
+ 172 > f_ScanStandbySmallLampSwitch: (2)
+
+ 173 > f_SendDTC: (2)
+
+ 174 > f_TIM1_CAP_COM_IRQHandler: (5)
+
+ 175 > f_TIM1_UPD_OVF_TRG_BRK_IRQHandler: (5)
+
+ 176 > f_TIM2_CAP_COM_IRQHandler: (11)
+ 177      + f_TIM2_Clear_IT_Flag: (2)
+       
+ 178 > f_TIM2_Enable_IT: (2)
+
+ 179 > f_TIM2_OCMP_Init: (8)
+
+ 180 > f_TIM2_UPD_OVF_BRK_IRQHandler: (11)
+ 181      + f_TIM2_Clear_IT_Flag --> 177
+       
+ 182 > f_TIM3_CAP_COM_IRQHandler: (13)
+ 183      + f_EXTI_SetExtIntSensitivity --> 93
+ 184      + f_RKE_RECEIVE_RESET --> 92
+ 185      + f_TIM3_Clear_IT_Flag: (2)
+ 186      + f_TIM3_Disable_IT --> 95
+       
+ 187 > f_TIM3_CCR_WRITE: (5)
+
+ 188 > f_TIM3_Enable_IT: (2)
+
+ 189 > f_TIM3_PWM_Init: (8)
+
+ 190 > f_TIM3_UPD_OVF_BRK_IRQHandler: (11)
+ 191      + f_RKE_RECEIVE_RESET --> 92
+ 192      + f_TIM3_Clear_IT_Flag --> 185
+       
+ 193 > f_TIM4_UPD_OVF_IRQHandler: (11)
+ 194      + f_NM_Function_Main: (2)
+ 195      |    + f_CANHardwave_Init --> 39
+ 196      |    + f_NMInit_Exit_Normal: (2)
+ 197      |    |    + f_CanSendMsg: (13)
+ 198      |    |    |    + f_CAN_send2 --> 148
+          |    |    | 
+          |    | 
+ 199      |    + f_NM_Function_OSEK: (24)
+ 200      |    |    + f_CANHardwave_Init --> 39
+ 201      |    |    + f_CanSendMsg --> 197
+ 202      |    |    + f_NMInit_Exit_Normal --> 196
+ 203      |    |    + f_NMInit_WaitSleep_Normal: (2)
+ 204      |    |    + f_NM_Limphome_Presleep_TmaxTimeout: (2)
+ 205      |    |    |    + f_NMInit_WaitSleep_Limphome: (2)
+          |    |    | 
+ 206      |    |    + f_NM_Limphome_Presleep_TransitMsg: (2)
+ 207      |    |    + f_NM_Limphome_TerrorTimeout: (2)
+ 208      |    |    |    + f_CanSendMsg --> 197
+          |    |    | 
+ 209      |    |    + f_NM_Limphome_TransitMsg: (2)
+ 210      |    |    + f_NM_NodeSkipDispose: (2)
+ 211      |    |    |    + f_CanSendMsg --> 197
+          |    |    | 
+ 212      |    |    + f_NM_Normal_Presleep_TtypTimeout: (2)
+ 213      |    |    |    + f_CanSendMsg --> 197
+          |    |    | 
+ 214      |    |    + f_NM_Normal_TmaxTimeout: (2)
+ 215      |    |    |    + f_NMInit_Exit_Normal --> 196
+          |    |    | 
+ 216      |    |    + f_NM_Normal_TransitMsg: (2)
+ 217      |    |    + f_NM_Normal_TtypTimeout: (2)
+ 218      |    |    |    + f_CanSendMsg --> 197
+          |    |    | 
+ 219      |    |    + f_NM_RecMsg: (13)
+ 220      |    |    |    + f_NMInit_Exit_Normal --> 196
+ 221      |    |    |    + f_NMInit_WaitSleep_Limphome --> 205
+ 222      |    |    |    + f_NMInit_WaitSleep_Normal --> 203
+ 223      |    |    |    + f_NM_RecMsg_StandardNM: (14)
+ 224      |    |    |    |    + f_NM_NodeSkip: (13)
+          |    |    |    | 
+          |    |    | 
+ 225      |    |    + f_NM_RecMsgSave: (16)
+ 226      |    |    + f_NM_StateShutDown: (2)
+          |    | 
+ 227      |    + f_NM_Timer_Main: (5)
+ 228      |    + f_NN_OSEK_StateDetect: (2)
+ 229      |    |    + f_NM_FunBusOff: (2)
+          |    | 
+          | 
+ 230      + f_TIM4_Clear_Int_Flag: (2)
+       
+ 231 > f_TLI_IRQHandler: (5)
+
+ 232 > f_TRAP_IRQHandler: (5)
+
+ 233 > f_USART_RX_IRQHandler: (5)
+
+ 234 > f_USART_TX_IRQHandler: (5)
+
+ 235 > f_WWDG_GetControlValue: (2)
+
+ 236 > f_WWDG_SWReset: (2)
+
+ 237 > f_WakeInit: (3)
+
+ 238 > f_Weeprom: (11)
+
+ 239 > f__stext: (0)
+
+ 240 > f_delay: (5)
+
+ 241 > f_delay_ms: (6)
+
+ 242 > f_leveonekeytest: (2)
+ 243      + f_LevelOneKeyArith: (31)
+       
+ 244 > f_main: (2)
+ 245      + f_ADC_Scan: (7)
+ 246      |    + f_ADC_GetValue: (7)
+ 247      |    |    + f_ADC_init: (2)
+          |    | 
+          | 
+ 248      + f_BUSoff: (2)
+ 249      |    + f_CAN_EnableDiagMode --> 40
+ 250      |    + f_CAN_Init --> 41
+ 251      |    + f_CanCanInterruptRestore --> 43
+          | 
+ 252      + f_CANRX: (5)
+ 253      |    + f_Clear_WDT --> 155
+ 254      |    + f_DecelerationThresholds: (6)
+ 255      |    |    + f_DeceCount: (12)
+          |    | 
+ 256      |    + f_clearCANrx: (3)
+          | 
+ 257      + f_CANSend: (2)
+ 258      |    + f_CAN_Send1 --> 149
+          | 
+ 259      + f_CANenble: (2)
+ 260      + f_Clear_WDT --> 155
+ 261      + f_DTCinit: (2)
+ 262      + f_Did2einit: (4)
+ 263      + f_Did2esave: (6)
+ 264      |    + f_Weeprommain: (11)
+ 265      |    |    + f_FLASH_DeInit: (3)
+ 266      |    |    + f_FLASH_ProgramByte --> 156
+ 267      |    |    + f_FLASH_Unlock: (3)
+ 268      |    |    |    + f_assert_failed --> 8
+          |    |    | 
+          |    | 
+          | 
+ 269      + f_FindCar: (2)
+ 270      + f_InOutputWake: (2)
+ 271      |    + f_Clear_WDT --> 155
+ 272      |    + f_ScanH4021InData: (3)
+ 273      |    |    + f_delay_10us: (6)
+          |    | 
+ 274      |    + f_ScanStandByCrashInSignal: (2)
+ 275      |    + f_ScanStandByDoorAjarSwitch: (2)
+ 276      |    + f_ScanStandByHazzardKeys: (2)
+ 277      |    + f_ScanStandbyIgnSwitch: (2)
+ 278      |    + f_WWDG_Refresh --> 46
+ 279      |    + f_WakeUp --> 38
+ 280      |    + f_delay_10us --> 273
+          | 
+ 281      + f_InPutWake: (2)
+ 282      |    + f_AWU_Init --> 163
+ 283      |    + f_WakeUp --> 38
+          | 
+ 284      + f_JudgeDefrostDriver: (2)
+ 285      + f_JudgeDomeLampDriver: (2)
+ 286      |    + f_DomeLampsDriver: (2)
+ 287      |    + f_TIM2_CCR_WRITE: (5)
+          | 
+ 288      + f_JudgeHornDriver: (2)
+ 289      |    + f_ClearBuzzdrv: (4)
+          | 
+ 290      + f_JudgeLockDriver: (2)
+ 291      |    + f_Lockhot: (3)
+ 292      |    + f_ResumeWindowDriverState: (2)
+ 293      |    + f_SaveWindowDriverState: (2)
+          | 
+ 294      + f_JudgeTurnLampDrv: (2)
+ 295      + f_JudgeWarmTypeAndDriver: (2)
+ 296      |    + f_BuzzerDrv: (11)
+ 297      |    + f_ClearBuzzdrv --> 289
+          | 
+ 298      + f_MachineKeyDrv: (2)
+ 299      + f_NM_OSEK_Init: (2)
+ 300      |    + f_CANHardwave_Init --> 39
+          | 
+ 301      + f_SFLED: (2)
+ 302      + f_ScanAllDoorState: (2)
+ 303      + f_ScanAllLockState: (2)
+ 304      + f_ScanBatteryVoltage: (4)
+ 305      |    + f_GetADCresultAverage: (21)
+          | 
+ 306      + f_ScanCentralLockSwitch: (5)
+ 307      |    + f_BuzzerDrv --> 296
+ 308      |    + f_GetADCresultAverage --> 305
+          | 
+ 309      + f_ScanCrashInSignal: (2)
+ 310      |    + f_Crash_CAN: (2)
+ 311      |    + f_SaveWindowDriverState --> 293
+          | 
+ 312      + f_ScanDefrostSwitch: (2)
+ 313      + f_ScanFortifySWState: (2)
+ 314      + f_ScanH4021InData --> 272
+ 315      + f_ScanHornSwitch: (2)
+ 316      + f_ScanIgnSwitch: (2)
+ 317      + f_ScanKeyInState: (2)
+ 318      + f_ScanRkeKeys: (3)
+ 319      |    + f_BuzzerDrv --> 296
+ 320      |    + f_ClearBuzzdrv --> 289
+ 321      |    + f_DECODE_PROC: (6)
+ 322      |    |    + f_Decrypt: (7)
+ 323      |    |    |    + f_DECRYPT: (11)
+          |    |    | 
+ 324      |    |    + f_RkeStudy: (2)
+ 325      |    |    |    + f_BuzzerDrv --> 296
+ 326      |    |    |    + f_SAVE_SERIAL_NUMBER --> 159
+ 327      |    |    |    + f_SAVE_SYNC_CODE: (13)
+ 328      |    |    |    |    + f_Clear_WDT --> 155
+ 329      |    |    |    |    + f_FLASH_ProgramByte --> 156
+          |    |    |    | 
+          |    |    | 
+ 330      |    |    + f_SAVE_SYNC_CODE --> 327
+          |    | 
+ 331      |    + f_RKEBatteryVoltage: (3)
+ 332      |    |    + f_BuzzerDrv --> 296
+ 333      |    |    + f_SAVE_BatterVol_CODE: (13)
+ 334      |    |    |    + f_Clear_WDT --> 155
+ 335      |    |    |    + f_FLASH_ProgramByte --> 156
+          |    |    | 
+          |    | 
+          | 
+ 336      + f_ScanSeatPositionState: (2)
+ 337      + f_ScanSeatbeltBuckleState: (2)
+ 338      + f_ScanSmallLampSwitch: (2)
+ 339      + f_ScanTrunkSwitch: (2)
+ 340      + f_ScanTurnLampKeys: (2)
+ 341      |    + f_ScanHazzardKeys: (2)
+          | 
+ 342      + f_ScanTurnLampState: (4)
+ 343      |    + f_GetADCresultAverage --> 305
+ 344      |    + f_WriteDTC: (2)
+          | 
+ 345      + f_ScanWindowKeys: (4)
+ 346      |    + f_GetADCresultAverage --> 305
+          | 
+ 347      + f_SystemClock --> 45
+ 348      + f_System_Init: (2)
+ 349      |    + f_ADC_Start: (2)
+ 350      |    + f_ADC_init --> 247
+ 351      |    + f_CAN_EnableDiagMode --> 40
+ 352      |    + f_CAN_Init --> 41
+ 353      |    + f_CAN_WakeUp --> 42
+ 354      |    + f_CanCanInterruptRestore --> 43
+ 355      |    + f_Clear_WDT --> 155
+ 356      |    + f_DecelerationSetting: (13)
+ 357      |    |    + f_DeceSettingValue: (4)
+ 358      |    |    + f_FLASH_ProgramByte --> 156
+          |    | 
+ 359      |    + f_EXTI_SetExtIntSensitivity --> 93
+ 360      |    + f_FLASH_DeInit --> 265
+ 361      |    + f_FLASH_Unlock --> 267
+ 362      |    + f_GPIO_SysInit: (2)
+ 363      |    |    + f_GPIO_UserInit: (4)
+          |    | 
+ 364      |    + f_RAM_Init: (2)
+ 365      |    + f_RKE_RECEIVE_RESET --> 92
+ 366      |    + f_TIM2_Counter_Cycle_OVIE_init: (4)
+ 367      |    |    + f_CLK_PeripheralClockConfig: (4)
+ 368      |    |    |    + f_assert_failed --> 8
+          |    |    | 
+          |    | 
+ 369      |    + f_TIM2_Disable_IT: (2)
+ 370      |    + f_TIM2_PWM_Init: (8)
+ 371      |    + f_TIM3_Counter_Cycle_OVIE_init: (4)
+ 372      |    |    + f_CLK_PeripheralClockConfig --> 367
+          |    | 
+ 373      |    + f_TIM3_Disable_IT --> 95
+ 374      |    + f_TIM3_OCMP_Init: (8)
+ 375      |    + f_TIM4_Init: (2)
+          | 
+ 376      + f_TRUNKwarm: (2)
+ 377      + f_Turnvcclow: (2)
+ 378      + f_UDSDTC_main: (2)
+ 379      |    + f_UDSDTC9001: (2)
+ 380      |    |    + f_Weeprommain --> 264
+          |    | 
+ 381      |    + f_UDSDTC9003: (2)
+ 382      |    |    + f_Weeprommain --> 264
+          |    | 
+ 383      |    + f_UDSDTC9007: (2)
+ 384      |    |    + f_Weeprommain --> 264
+          |    | 
+ 385      |    + f_UDSDTC900c: (2)
+ 386      |    + f_UDSDTC9011: (2)
+ 387      |    |    + f_Weeprommain --> 264
+          |    | 
+ 388      |    + f_UDSDTC9015: (2)
+ 389      |    |    + f_Weeprommain --> 264
+          |    | 
+ 390      |    + f_UDSDTC9023: (2)
+ 391      |    |    + f_Weeprommain --> 264
+          |    | 
+ 392      |    + f_UDSDTC9043: (2)
+ 393      |    |    + f_Weeprommain --> 264
+          |    | 
+ 394      |    + f_UDSDTC9045: (2)
+ 395      |    |    + f_Weeprommain --> 264
+          |    | 
+ 396      |    + f_UDSDTC9061: (2)
+ 397      |    + f_UDSDTC9067: (2)
+ 398      |    + f_UDSDTC9073: (4)
+ 399      |    |    + f_GetADCresultAverage --> 305
+ 400      |    |    + f_Weeprommain --> 264
+          |    | 
+ 401      |    + f_UDSDTC9083: (2)
+ 402      |    |    + f_Weeprommain --> 264
+          |    | 
+ 403      |    + f_UDSDTC9091: (2)
+ 404      |    |    + f_Weeprommain --> 264
+          |    | 
+ 405      |    + f_UDSDTC9093: (2)
+ 406      |    |    + f_Weeprommain --> 264
+          |    | 
+ 407      |    + f_UDSDTC9111: (2)
+ 408      |    |    + f_Weeprommain --> 264
+          |    | 
+ 409      |    + f_UDSDTCd001: (2)
+ 410      |    |    + f_Weeprommain --> 264
+          |    | 
+ 411      |    + f_UDSDTCd002: (2)
+ 412      |    |    + f_Weeprommain --> 264
+          |    | 
+ 413      |    + f_UDSDTCd003: (2)
+ 414      |    + f_UDSDTCd004: (2)
+ 415      |    + f_UDSDTCd005: (2)
+          | 
+ 416      + f_UDSonCANDiag: (3)
+ 417      |    + f_ClearNPDUbuff: (4)
+ 418      |    + f_ClearRPDUbuff: (4)
+ 419      |    + f_UDSDiag10: (11)
+ 420      |    + f_UDSDiag19: (12)
+ 421      |    |    + f_ReadDTCquantity: (5)
+ 422      |    |    + f_SaveDTCtoBuff: (8)
+ 423      |    |    + f_UDSsendone: (10)
+ 424      |    |    |    + f_ClearRPDUbuff --> 418
+          |    |    | 
+          |    | 
+ 425      |    + f_UDSDiag22: (11)
+ 426      |    |    + f_ReadDid22: (16)
+ 427      |    |    |    + f_ClearNPDUbuff --> 417
+ 428      |    |    |    + f_ReadDidvalue: (6)
+ 429      |    |    |    |    + f_ClearDidvalue: (3)
+ 430      |    |    |    |    + f_RKEnumberRead: (3)
+          |    |    |    | 
+ 431      |    |    |    + f_UDSsendone --> 423
+          |    |    | 
+          |    | 
+ 432      |    + f_UDSDiag27: (11)
+ 433      |    |    + f_BCMsjs: (5)
+ 434      |    |    + f_LevelOneKeyArith --> 243
+ 435      |    |    + f_UDSsendone --> 423
+          |    | 
+ 436      |    + f_UDSDiag28: (11)
+ 437      |    + f_UDSDiag2e: (15)
+ 438      |    |    + f_ReadDidvalue --> 428
+          |    | 
+ 439      |    + f_UDSDiag31: (13)
+ 440      |    |    + f_INITrkenumber: (3)
+ 441      |    |    |    + f_SAVE_SERIAL_NUMBER --> 159
+ 442      |    |    |    + f_WWDG_Refresh --> 46
+          |    |    | 
+          |    | 
+ 443      |    + f_UDSDiag3e: (11)
+ 444      |    + f_UDSDiag85: (10)
+ 445      |    + f_UDSclearDTC: (8)
+ 446      |    |    + f_WWDG_Refresh --> 46
+ 447      |    |    + f_Weeprommain --> 264
+          |    | 
+ 448      |    + f_UDSsendone --> 423
+          | 
+ 449      + f_UDSonCAN_netmain: (5)
+ 450      |    + f_CAN_send2 --> 148
+ 451      |    + f_ClearNPDUbuff --> 417
+          | 
+ 452      + f_WWDG_Init: (4)
+ 453      |    + f_assert_failed --> 8
+          | 
+ 454      + f_WWDG_Refresh --> 46
+ 455      + f_WarmStatusArithmetic: (7)
+ 456      |    + f_FLASH_ProgramByte --> 156
+          | 
+ 457      + f_WindowDriver: (2)
+ 458      |    + f_WindowDown: (2)
+ 459      |    + f_WindowStop: (2)
+ 460      |    + f_WindowUp: (2)
+          | 
+ 461      + f_WindowStop --> 459
+ 462      + f_buzzdrv2: (7)
+ 463      |    + f_BuzzCANsend: (4)
+          | 
+       
+ 464 > f_turnbd: (5)
+
+ 465 > f_writeHazardecestate: (8)
+ 466      + f_FLASH_ProgramByte --> 156
+       
+ 467 > f_writeRearfogbutton: (8)
+ 468      + f_FLASH_ProgramByte --> 156
+       
+ 469   f_ADC_Cmd --> 10
+
+ 470   f_ADC_ConversionConfig --> 12
+
+ 471   f_ADC_ExternalTriggerConfig --> 14
+
+ 472   f_ADC_GetValue --> 246
+
+ 473   f_ADC_PrescalerConfig --> 16
+
+ 474   f_ADC_Scan --> 245
+
+ 475   f_ADC_SchmittTriggerConfig --> 18
+
+ 476   f_ADC_Start --> 349
+
+ 477   f_ADC_init --> 247
+
+ 478   f_AWU_Init --> 163
+
+ 479   f_AWU_LSICalibrationConfig --> 25
+
+ 480   f_BCMsjs --> 433
+
+ 481   f_BUSoff --> 248
+
+ 482   f_BuzzCANsend --> 463
+
+ 483   f_BuzzerDrv --> 296
+
+ 484   f_CANHardwave_Init --> 39
+
+ 485   f_CANRX --> 252
+
+ 486   f_CANSend --> 257
+
+ 487   f_CAN_EnableDiagMode --> 40
+
+ 488   f_CAN_Init --> 41
+
+ 489   f_CAN_Send1 --> 149
+
+ 490   f_CAN_WakeUp --> 42
+
+ 491   f_CAN_send2 --> 148
+
+ 492   f_CANenble --> 259
+
+ 493   f_CLK_CCOCmd --> 53
+
+ 494   f_CLK_ClockSwitchConfig --> 75
+
+ 495   f_CLK_GetClockFreq --> 27
+
+ 496   f_CLK_HSIConfig --> 77
+
+ 497   f_CLK_PeripheralClockConfig --> 367
+
+ 498   f_CanCanInterruptRestore --> 43
+
+ 499   f_CanMsgTransmit --> 150
+
+ 500   f_CanSendMsg --> 197
+
+ 501   f_ClearBuzzdrv --> 289
+
+ 502   f_ClearDTC --> 154
+
+ 503   f_ClearDidvalue --> 429
+
+ 504   f_ClearNPDUbuff --> 417
+
+ 505   f_ClearRPDUbuff --> 418
+
+ 506   f_Clear_WDT --> 155
+
+ 507   f_Crash_CAN --> 310
+
+ 508   f_DECODE_PROC --> 321
+
+ 509   f_DECRYPT --> 323
+
+ 510   f_DTCinit --> 261
+
+ 511   f_DeceCount --> 255
+
+ 512   f_DeceSettingValue --> 357
+
+ 513   f_DecelerationSetting --> 356
+
+ 514   f_DecelerationThresholds --> 254
+
+ 515   f_Decrypt --> 322
+
+ 516   f_Did2einit --> 262
+
+ 517   f_Did2esave --> 263
+
+ 518   f_DomeLampsDriver --> 286
+
+ 519   f_EXTI_SetExtIntSensitivity --> 93
+
+ 520   f_FLASH_DeInit --> 265
+
+ 521   f_FLASH_ProgramByte --> 156
+
+ 522   f_FLASH_Unlock --> 267
+
+ 523   f_FLASH_WaitForLastOperation --> 113
+
+ 524   f_FindCar --> 269
+
+ 525   f_GPIO_SysInit --> 362
+
+ 526   f_GPIO_UserInit --> 363
+
+ 527   f_GetADCresultAverage --> 305
+
+ 528   f_INITrkenumber --> 440
+
+ 529   f_InOutputWake --> 270
+
+ 530   f_InPutWake --> 281
+
+ 531   f_JudgeDefrostDriver --> 284
+
+ 532   f_JudgeDomeLampDriver --> 285
+
+ 533   f_JudgeHornDriver --> 288
+
+ 534   f_JudgeLockDriver --> 290
+
+ 535   f_JudgeTurnLampDrv --> 294
+
+ 536   f_JudgeWarmTypeAndDriver --> 295
+
+ 537   f_LevelOneKeyArith --> 243
+
+ 538   f_Lockhot --> 291
+
+ 539   f_MachineKeyDrv --> 298
+
+ 540   f_NMInit_Exit_Normal --> 196
+
+ 541   f_NMInit_WaitSleep_Limphome --> 205
+
+ 542   f_NMInit_WaitSleep_Normal --> 203
+
+ 543   f_NM_FunBusOff --> 229
+
+ 544   f_NM_Function_Main --> 194
+
+ 545   f_NM_Function_OSEK --> 199
+
+ 546   f_NM_Limphome_Presleep_TmaxTimeout --> 204
+
+ 547   f_NM_Limphome_Presleep_TransitMsg --> 206
+
+ 548   f_NM_Limphome_TerrorTimeout --> 207
+
+ 549   f_NM_Limphome_TransitMsg --> 209
+
+ 550   f_NM_NodeSkip --> 224
+
+ 551   f_NM_NodeSkipDispose --> 210
+
+ 552   f_NM_Normal_Presleep_TtypTimeout --> 212
+
+ 553   f_NM_Normal_TmaxTimeout --> 214
+
+ 554   f_NM_Normal_TransitMsg --> 216
+
+ 555   f_NM_Normal_TtypTimeout --> 217
+
+ 556   f_NM_OSEK_Init --> 299
+
+ 557   f_NM_RecMsg --> 219
+
+ 558   f_NM_RecMsgSave --> 225
+
+ 559   f_NM_RecMsg_StandardNM --> 223
+
+ 560   f_NM_StateShutDown --> 226
+
+ 561   f_NM_Timer_Main --> 227
+
+ 562   f_NN_OSEK_StateDetect --> 228
+
+ 563   f_RAM_Init --> 364
+
+ 564   f_RKEBatteryVoltage --> 331
+
+ 565   f_RKE_RECEIVE_RESET --> 92
+
+ 566   f_RKEnumberRead --> 430
+
+ 567   f_ReadDTCquantity --> 421
+
+ 568   f_ReadDid22 --> 426
+
+ 569   f_ReadDidvalue --> 428
+
+ 570   f_ResumeWindowDriverState --> 292
+
+ 571   f_RkeStudy --> 324
+
+ 572   f_SAVE_BatterVol_CODE --> 333
+
+ 573   f_SAVE_SERIAL_NUMBER --> 159
+
+ 574   f_SAVE_SYNC_CODE --> 327
+
+ 575   f_SFLED --> 301
+
+ 576   f_SaveDTCtoBuff --> 422
+
+ 577   f_SaveWindowDriverState --> 293
+
+ 578   f_ScanAllDoorState --> 302
+
+ 579   f_ScanAllLockState --> 303
+
+ 580   f_ScanBatteryVoltage --> 304
+
+ 581   f_ScanCentralLockSwitch --> 306
+
+ 582   f_ScanCrashInSignal --> 309
+
+ 583   f_ScanDefrostSwitch --> 312
+
+ 584   f_ScanFortifySWState --> 313
+
+ 585   f_ScanH4021InData --> 272
+
+ 586   f_ScanHazzardKeys --> 341
+
+ 587   f_ScanHornSwitch --> 315
+
+ 588   f_ScanIgnSwitch --> 316
+
+ 589   f_ScanKeyInState --> 317
+
+ 590   f_ScanRkeKeys --> 318
+
+ 591   f_ScanSeatPositionState --> 336
+
+ 592   f_ScanSeatbeltBuckleState --> 337
+
+ 593   f_ScanSmallLampSwitch --> 338
+
+ 594   f_ScanStandByCrashInSignal --> 274
+
+ 595   f_ScanStandByDoorAjarSwitch --> 275
+
+ 596   f_ScanStandByHazzardKeys --> 276
+
+ 597   f_ScanStandbyIgnSwitch --> 277
+
+ 598   f_ScanTrunkSwitch --> 339
+
+ 599   f_ScanTurnLampKeys --> 340
+
+ 600   f_ScanTurnLampState --> 342
+
+ 601   f_ScanWindowKeys --> 345
+
+ 602   f_SystemClock --> 45
+
+ 603   f_System_Init --> 348
+
+ 604   f_TIM2_CCR_WRITE --> 287
+
+ 605   f_TIM2_Clear_IT_Flag --> 177
+
+ 606   f_TIM2_Counter_Cycle_OVIE_init --> 366
+
+ 607   f_TIM2_Disable_IT --> 369
+
+ 608   f_TIM2_PWM_Init --> 370
+
+ 609   f_TIM3_Clear_IT_Flag --> 185
+
+ 610   f_TIM3_Counter_Cycle_OVIE_init --> 371
+
+ 611   f_TIM3_Disable_IT --> 95
+
+ 612   f_TIM3_OCMP_Init --> 374
+
+ 613   f_TIM4_Clear_Int_Flag --> 230
+
+ 614   f_TIM4_Init --> 375
+
+ 615   f_TRUNKwarm --> 376
+
+ 616   f_Turnvcclow --> 377
+
+ 617   f_UDSDTC9001 --> 379
+
+ 618   f_UDSDTC9003 --> 381
+
+ 619   f_UDSDTC9007 --> 383
+
+ 620   f_UDSDTC900c --> 385
+
+ 621   f_UDSDTC9011 --> 386
+
+ 622   f_UDSDTC9015 --> 388
+
+ 623   f_UDSDTC9023 --> 390
+
+ 624   f_UDSDTC9043 --> 392
+
+ 625   f_UDSDTC9045 --> 394
+
+ 626   f_UDSDTC9061 --> 396
+
+ 627   f_UDSDTC9067 --> 397
+
+ 628   f_UDSDTC9073 --> 398
+
+ 629   f_UDSDTC9083 --> 401
+
+ 630   f_UDSDTC9091 --> 403
+
+ 631   f_UDSDTC9093 --> 405
+
+ 632   f_UDSDTC9111 --> 407
+
+ 633   f_UDSDTC_main --> 378
+
+ 634   f_UDSDTCd001 --> 409
+
+ 635   f_UDSDTCd002 --> 411
+
+ 636   f_UDSDTCd003 --> 413
+
+ 637   f_UDSDTCd004 --> 414
+
+ 638   f_UDSDTCd005 --> 415
+
+ 639   f_UDSDiag10 --> 419
+
+ 640   f_UDSDiag19 --> 420
+
+ 641   f_UDSDiag22 --> 425
+
+ 642   f_UDSDiag27 --> 432
+
+ 643   f_UDSDiag28 --> 436
+
+ 644   f_UDSDiag2e --> 437
+
+ 645   f_UDSDiag31 --> 439
+
+ 646   f_UDSDiag3e --> 443
+
+ 647   f_UDSDiag85 --> 444
+
+ 648   f_UDSclearDTC --> 445
+
+ 649   f_UDSonCANDiag --> 416
+
+ 650   f_UDSonCAN_netmain --> 449
+
+ 651   f_UDSsendone --> 423
+
+ 652   f_WWDG_Init --> 452
+
+ 653   f_WWDG_Refresh --> 46
+
+ 654   f_WakeUp --> 38
+
+ 655   f_WarmStatusArithmetic --> 455
+
+ 656   f_Weeprommain --> 264
+
+ 657   f_WindowDown --> 458
+
+ 658   f_WindowDriver --> 457
+
+ 659   f_WindowStop --> 459
+
+ 660   f_WindowUp --> 460
+
+ 661   f_WriteDTC --> 344
+
+ 662   f_assert_failed --> 8
+
+ 663   f_buzzdrv2 --> 462
+
+ 664   f_clearCANrx --> 256
+
+ 665   f_delay_10us --> 273
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_ADCerrorCnt                         00000235   defined in Debug\adc_drv.o section .bss
+                                                used in Debug\stm8_adc.o
+                                                        Debug\st79_it.o
+_APR_Array                           000080b0   defined in Debug\stm8_awu.o section .const
+_A_Code                              000004b4   defined in Debug\rke_drv1.o section .bss
+                                                used in Debug\decry.o
+                                                        Debug\st79_it.o
+_Alarm_Actiated                      0000045d   defined in Debug\lock_drv.o section .bss
+                                                used in Debug\turnlamp_drv.o
+_Alarmstatus_RKE                     00000468   defined in Debug\lock_drv.o section .bss
+                                                used in Debug\rke_drv1.o
+                                                        Debug\turnlamp_drv.o
+_AppKeyConst                         0000076c   defined in Debug\udsoncan.o section .bss
+_BCMkey                              00000770   defined in Debug\udsoncan.o section .bss
+_BCMnumber                           0000409d   defined in Debug\can.o
+                                                used in Debug\main.o
+_BCMtoGEM_AlarmStatus                00000469   defined in Debug\lock_drv.o section .bss
+                                                used in Debug\main.o
+                                                        Debug\rke_drv1.o
+                                                        Debug\turnlamp_drv.o
+_BCMvseed                            00000774   defined in Debug\udsoncan.o section .bss
+_BS                                  00000598   defined in Debug\udsoncan.o section .bss
+_BUZZLocktimecnt                     00000122   defined in Debug\lock_drv.o section .data, initialized
+                                                used in Debug\rke_drv1.o
+_B_Code                              000004b0   defined in Debug\rke_drv1.o section .bss
+                                                used in Debug\decry.o
+                                                        Debug\st79_it.o
+_B_Code_new                          0000048d   defined in Debug\rke_drv1.o section .bss
+_BatVoltageState                     00000401   defined in Debug\defrost_drv.o section .bss
+_Battertime                          000001c4   defined in Debug\domelamp_drv.o section .bss
+_BatteryVoltage                      00000344   defined in Debug\can.o section .bss
+_BrakeSpeedHazards_state             00000525   defined in Debug\turnlamp_drv.o section .bss
+                                                used in Debug\can.o
+_BreakPedalSignal                    00000342   defined in Debug\can.o section .bss
+_Busoffstate                         000002f4   defined in Debug\can.o section .bss
+                                                used in Debug\st79_it.o
+_Buzz10sstate                        00000486   defined in Debug\rke_drv1.o section .bss
+_BuzzerDuty                          00000832   defined in Debug\warm_drv.o section .bss
+_BuzzerOnCnt                         00000833   defined in Debug\warm_drv.o section .bss
+_BuzzerPeriod                        00000831   defined in Debug\warm_drv.o section .bss
+_Buzzertime                          00000825   defined in Debug\warm_drv.o section .bss
+_CANBusOFF                           000002d6   defined in Debug\can.o section .bss
+_CANBusOFFcnt                        000002d5   defined in Debug\can.o section .bss
+_CANBusoffcnt                        000002d7   defined in Debug\can.o section .bss
+_CAN_Auto_state                      000002f8   defined in Debug\can.o section .bss
+_CAN_BTR1                            0000542c   defined in Debug\domelamp_drv.o
+_CAN_BTR2                            0000542d   defined in Debug\domelamp_drv.o
+_CAN_Crash                           000002f7   defined in Debug\can.o section .bss
+                                                used in Debug\lock_drv.o
+_CAN_DGR                             00005426   defined in Debug\domelamp_drv.o
+_CAN_EIER                            00005429   defined in Debug\domelamp_drv.o
+_CAN_ESR                             00005428   defined in Debug\domelamp_drv.o
+_CAN_FCR1                            00005432   defined in Debug\domelamp_drv.o
+_CAN_FCR2                            00005433   defined in Debug\domelamp_drv.o
+_CAN_FCR3                            00005434   defined in Debug\domelamp_drv.o
+_CAN_FMR1                            00005430   defined in Debug\domelamp_drv.o
+_CAN_FMR2                            00005431   defined in Debug\domelamp_drv.o
+_CAN_FORTIFY_state                   00000341   defined in Debug\can.o section .bss
+                                                used in Debug\turnlamp_drv.o
+_CAN_FPSR                            00005427   defined in Debug\domelamp_drv.o
+_CAN_FxR0                            00005428   defined in Debug\domelamp_drv.o
+_CAN_FxR1                            00005429   defined in Debug\domelamp_drv.o
+_CAN_FxR2                            0000542a   defined in Debug\domelamp_drv.o
+_CAN_FxR3                            0000542b   defined in Debug\domelamp_drv.o
+_CAN_FxR4                            0000542c   defined in Debug\domelamp_drv.o
+_CAN_FxR5                            0000542d   defined in Debug\domelamp_drv.o
+_CAN_FxR6                            0000542e   defined in Debug\domelamp_drv.o
+_CAN_FxR7                            0000542f   defined in Debug\domelamp_drv.o
+_CAN_FyR0                            00005430   defined in Debug\domelamp_drv.o
+_CAN_FyR1                            00005431   defined in Debug\domelamp_drv.o
+_CAN_FyR2                            00005432   defined in Debug\domelamp_drv.o
+_CAN_FyR3                            00005433   defined in Debug\domelamp_drv.o
+_CAN_FyR4                            00005434   defined in Debug\domelamp_drv.o
+_CAN_FyR5                            00005435   defined in Debug\domelamp_drv.o
+_CAN_FyR6                            00005436   defined in Debug\domelamp_drv.o
+_CAN_FyR7                            00005437   defined in Debug\domelamp_drv.o
+_CAN_IER                             00005425   defined in Debug\domelamp_drv.o
+_CAN_MCR                             00005420   defined in Debug\domelamp_drv.o
+_CAN_MCSR                            00005428   defined in Debug\domelamp_drv.o
+_CAN_MDAR                            0000542e   defined in Debug\domelamp_drv.o
+_CAN_MDLC                            00005429   defined in Debug\domelamp_drv.o
+_CAN_MFMI                            00005428   defined in Debug\domelamp_drv.o
+_CAN_MIDR1                           0000542a   defined in Debug\domelamp_drv.o
+_CAN_MIDR12                          0000542a   defined in Debug\domelamp_drv.o
+_CAN_MIDR2                           0000542b   defined in Debug\domelamp_drv.o
+_CAN_MIDR3                           0000542c   defined in Debug\domelamp_drv.o
+_CAN_MIDR34                          0000542c   defined in Debug\domelamp_drv.o
+_CAN_MIDR4                           0000542d   defined in Debug\domelamp_drv.o
+_CAN_MSR                             00005421   defined in Debug\domelamp_drv.o
+_CAN_MTSHR                           00005437   defined in Debug\domelamp_drv.o
+_CAN_MTSLR                           00005436   defined in Debug\domelamp_drv.o
+_CAN_P0                              00005428   defined in Debug\domelamp_drv.o
+_CAN_P1                              00005429   defined in Debug\domelamp_drv.o
+_CAN_P2                              0000542a   defined in Debug\domelamp_drv.o
+_CAN_P3                              0000542b   defined in Debug\domelamp_drv.o
+_CAN_P4                              0000542c   defined in Debug\domelamp_drv.o
+_CAN_P5                              0000542d   defined in Debug\domelamp_drv.o
+_CAN_P6                              0000542e   defined in Debug\domelamp_drv.o
+_CAN_P7                              0000542f   defined in Debug\domelamp_drv.o
+_CAN_P8                              00005430   defined in Debug\domelamp_drv.o
+_CAN_P9                              00005431   defined in Debug\domelamp_drv.o
+_CAN_Pa                              00005432   defined in Debug\domelamp_drv.o
+_CAN_Pb                              00005433   defined in Debug\domelamp_drv.o
+_CAN_Pc                              00005434   defined in Debug\domelamp_drv.o
+_CAN_Pd                              00005435   defined in Debug\domelamp_drv.o
+_CAN_Pe                              00005436   defined in Debug\domelamp_drv.o
+_CAN_Pf                              00005437   defined in Debug\domelamp_drv.o
+_CAN_RECR                            0000542b   defined in Debug\domelamp_drv.o
+_CAN_RFR                             00005424   defined in Debug\domelamp_drv.o
+_CAN_TECR                            0000542a   defined in Debug\domelamp_drv.o
+_CAN_TPR                             00005423   defined in Debug\domelamp_drv.o
+_CAN_TSR                             00005422   defined in Debug\domelamp_drv.o
+_CANsetstate                         000002d8   defined in Debug\can.o section .bss
+_CANsetvalue                         00000300   defined in Debug\can.o section .bss
+_CAYG                                00008080   defined in Debug\decry.o section .const
+_CF_SN                               0000077f   defined in Debug\udsoncan.o section .bss
+_CLKPrescTable                       000080f8   defined in Debug\stm8_clk.o section .const
+_CLOCKtimeinit                       000001d8   defined in Debug\main.o section .bss
+_CanSendData                         000003e0   defined in Debug\can.o section .bss
+                                                used in Debug\main.o
+                                                        Debug\defrost_drv.o
+                                                        Debug\lock_drv.o
+                                                        Debug\sys_init.o
+                                                        Debug\turnlamp_drv.o
+                                                        Debug\warm_drv.o
+                                                        Debug\window_drv.o
+_Can_Page                            000003f6   defined in Debug\can.o section .bss
+                                                used in Debug\st79_it.o
+_Can_Tx_State                        00000346   defined in Debug\can.o section .bss
+_CarHornstate                        00000411   defined in Debug\horn_drv.o section .bss
+                                                used in Debug\turnlamp_drv.o
+_CarSpeed                            0000082b   defined in Debug\warm_drv.o section .bss
+                                                used in Debug\can.o
+_CarState                            00000835   defined in Debug\warm_drv.o section .bss
+                                                used in Debug\rke_drv1.o
+                                                        Debug\turnlamp_drv.o
+_CommControl                         00000135   defined in Debug\udsoncan.o section .data, initialized
+                                                used in Debug\can.o
+_CommonPID4932                       00000334   defined in Debug\can.o section .bss
+_CommonPID7100                       00000332   defined in Debug\can.o section .bss
+_CommonPID7110                       00000330   defined in Debug\can.o section .bss
+_CommonPID7115                       0000032e   defined in Debug\can.o section .bss
+_CommonPID7130                       0000032c   defined in Debug\can.o section .bss
+_CommonPIDA141                       0000032a   defined in Debug\can.o section .bss
+_CommonPIDA145                       00000328   defined in Debug\can.o section .bss
+_CommonPIDA442                       00000326   defined in Debug\can.o section .bss
+_CommonPIDA445                       00000324   defined in Debug\can.o section .bss
+_CommonPIDA452                       00000322   defined in Debug\can.o section .bss
+_CommonPIDA455                       00000320   defined in Debug\can.o section .bss
+_CommonPIDA457                       0000031e   defined in Debug\can.o section .bss
+_CommonPIDC111                       0000031c   defined in Debug\can.o section .bss
+_CommonPIDC136                       0000031a   defined in Debug\can.o section .bss
+_CommonPIDC900                       00000318   defined in Debug\can.o section .bss
+_Configuration                       00004090   defined in Debug\can.o
+                                                used in Debug\turnlamp_drv.o
+_CrashState                          0000046c   defined in Debug\lock_drv.o section .bss
+                                                used in Debug\turnlamp_drv.o
+_Crash_state_Y                       00000528   defined in Debug\turnlamp_drv.o section .bss
+_DIDF18bEEPROM                       00004100   defined in Debug\udsoncan.o
+_DIDF18cEEPROM                       0000410c   defined in Debug\udsoncan.o
+_DIDF190EEPROM                       00004113   defined in Debug\udsoncan.o
+_DIDF19dEEPROM                       00004104   defined in Debug\udsoncan.o
+_DIDF1F4EEPROM                       00004125   defined in Debug\udsoncan.o
+                                                used in Debug\lock_drv.o
+_DIDF1f2EEPROM                       00004108   defined in Debug\udsoncan.o
+                                                used in Debug\turnlamp_drv.o
+_DIDF1f3EEPROM                       0000410a   defined in Debug\udsoncan.o
+_DTCNameN                            0000059a   defined in Debug\udsoncan.o section .bss
+_DTCRetcodestate                     000002e0   defined in Debug\can.o section .bss
+_DTCRuningstate                      00000134   defined in Debug\udsoncan.o section .data, initialized
+                                                used in Debug\udsoncandtc.o
+_DTC_ABS_ID                          0000077b   defined in Debug\udsoncan.o section .bss
+                                                used in Debug\can.o
+                                                        Debug\udsoncandtc.o
+_DTC_EMS_ID1                         00000779   defined in Debug\udsoncan.o section .bss
+                                                used in Debug\can.o
+                                                        Debug\udsoncandtc.o
+_DTC_EMS_ID2                         00000778   defined in Debug\udsoncan.o section .bss
+                                                used in Debug\can.o
+                                                        Debug\udsoncandtc.o
+_DTC_SRS_ID                          0000077c   defined in Debug\udsoncan.o section .bss
+                                                used in Debug\can.o
+                                                        Debug\udsoncandtc.o
+_DTC_TCU_ID                          0000077a   defined in Debug\udsoncan.o section .bss
+                                                used in Debug\can.o
+                                                        Debug\udsoncandtc.o
+_DTCsendmode                         0000011e   defined in Debug\can.o section .data, initialized
+_DTCsendstate                        00000340   defined in Debug\can.o section .bss
+_DTCstate                            00004150   defined in Debug\udsoncan.o
+                                                used in Debug\udsoncandtc.o
+_DeceSettingValueH                   000002fe   defined in Debug\can.o section .bss
+                                                used in Debug\main.o
+_DeceSettingValueL                   000002fc   defined in Debug\can.o section .bss
+                                                used in Debug\main.o
+_DefrostDriverState                  000003ff   defined in Debug\defrost_drv.o section .bss
+_DefrostKeySta                       00000400   defined in Debug\defrost_drv.o section .bss
+_Didvalue                            00000570   defined in Debug\udsoncan.o section .bss
+_DomeLampDrv                         000001ce   defined in Debug\domelamp_drv.o section .bss
+                                                used in Debug\main.o
+_DoorState                           00000836   defined in Debug\warm_drv.o section .bss
+                                                used in Debug\domelamp_drv.o
+                                                        Debug\main.o
+                                                        Debug\horn_drv.o
+                                                        Debug\lock_drv.o
+                                                        Debug\rke_drv1.o
+                                                        Debug\turnlamp_drv.o
+                                                        Debug\udsoncandtc.o
+_DoorWarmState                       00000463   defined in Debug\lock_drv.o section .bss
+                                                used in Debug\main.o
+                                                        Debug\turnlamp_drv.o
+_DriverLOCK                          00000125   defined in Debug\rke_drv1.o section .data, initialized
+                                                used in Debug\lock_drv.o
+_EnalbeLearnRkeTime20s               00000412   defined in Debug\horn_drv.o section .bss
+                                                used in Debug\rke_drv1.o
+                                                        Debug\udsoncan.o
+_EngineState                         000003fe   defined in Debug\defrost_drv.o section .bss
+_F18Bdidsave                         00000552   defined in Debug\udsoncan.o section .bss
+_F18Bsavestate                       00000551   defined in Debug\udsoncan.o section .bss
+_F18CSavestate                       00000556   defined in Debug\udsoncan.o section .bss
+_F18Cdidsave                         00000557   defined in Debug\udsoncan.o section .bss
+_F190Savestate                       0000055e   defined in Debug\udsoncan.o section .bss
+_F190didsavevin                      0000055f   defined in Debug\udsoncan.o section .bss
+_F19ddidsave                         0000054d   defined in Debug\udsoncan.o section .bss
+_F19dsavestate                       0000054c   defined in Debug\udsoncan.o section .bss
+_F1f2didsave                         0000054a   defined in Debug\udsoncan.o section .bss
+_F1f2savestate                       00000549   defined in Debug\udsoncan.o section .bss
+_F1f3didsave                         00000547   defined in Debug\udsoncan.o section .bss
+_F1f3savestate                       00000546   defined in Debug\udsoncan.o section .bss
+_F1f4didsave                         00000544   defined in Debug\udsoncan.o section .bss
+_F1f4savestate                       00000543   defined in Debug\udsoncan.o section .bss
+_FF_DL                               00000780   defined in Debug\udsoncan.o section .bss
+_FJwarmTime                          ********   *** removed from Debug\lin.o ***
+_FJwarmstate                         ********   *** removed from Debug\lin.o ***
+_FLWinState                          00000840   defined in Debug\window_drv.o section .bss
+_FORTIFYSW_state                     0000082a   defined in Debug\warm_drv.o section .bss
+                                                used in Debug\turnlamp_drv.o
+_FindCarFlag                         00000491   defined in Debug\rke_drv1.o section .bss
+                                                used in Debug\lock_drv.o
+                                                        Debug\turnlamp_drv.o
+_H4021Data1                          00000414   defined in Debug\horn_drv.o section .bss
+                                                used in Debug\lock_drv.o
+                                                        Debug\warm_drv.o
+_HALTUPSTATE                         000001d5   defined in Debug\main.o section .bss
+_HSIDivFactor                        000080f4   defined in Debug\stm8_clk.o section .const
+_Hazardecestate                      000040a1   defined in Debug\can.o
+_HazzardState                        00000529   defined in Debug\turnlamp_drv.o section .bss
+                                                used in Debug\main.o Debug\can.o
+_Hazzardtimecnt                      0000011a   defined in Debug\main.o section .data, initialized
+_Header                              000004b8   defined in Debug\rke_drv1.o section .bss
+                                                used in Debug\st79_it.o
+_HornAlarmState                      00004085   defined in Debug\can.o
+_HornDoorunclosetime                 0000040f   defined in Debug\horn_drv.o section .bss
+                                                used in Debug\main.o
+                                                        Debug\lock_drv.o
+                                                        Debug\rke_drv1.o
+_HornSwitchState                     0000040e   defined in Debug\horn_drv.o section .bss
+_IGNsleeptime                        000001d3   defined in Debug\main.o section .bss
+_IGNstate                            00000415   defined in Debug\horn_drv.o section .bss
+                                                used in Debug\domelamp_drv.o
+                                                        Debug\main.o Debug\can.o
+                                                        Debug\defrost_drv.o
+                                                        Debug\lock_drv.o
+                                                        Debug\rke_drv1.o
+                                                        Debug\turnlamp_drv.o
+                                                        Debug\udsoncandtc.o
+                                                        Debug\warm_drv.o
+_IgnOffCtrl                          00000843   defined in Debug\window_drv.o section .bss
+                                                used in Debug\horn_drv.o
+_ImmoOnTime                          00000492   defined in Debug\rke_drv1.o section .bss
+                                                used in Debug\horn_drv.o
+_InOutPutPID0200                     00000317   defined in Debug\can.o section .bss
+_InOutPutPID0202                     00000316   defined in Debug\can.o section .bss
+_InOutPutPIDd102                     00000315   defined in Debug\can.o section .bss
+_InOutPutPIDe114                     00000314   defined in Debug\can.o section .bss
+_KEYleanstate                        00000584   defined in Debug\udsoncan.o section .bss
+_KeyInState                          00000838   defined in Debug\warm_drv.o section .bss
+                                                used in Debug\main.o
+                                                        Debug\lock_drv.o
+                                                        Debug\rke_drv1.o
+                                                        Debug\udsoncandtc.o
+_LAST_RX_sync_Code                   00000499   defined in Debug\rke_drv1.o section .bss
+_LINWINDOWSTATE                      00000485   defined in Debug\rke_drv1.o section .bss
+                                                used in Debug\lin.o
+_LIN_BCM_FRAME1                      ********   *** removed from Debug\lin.o ***
+_LIN_BCM_FRAME2                      ********   *** removed from Debug\lin.o ***
+_LIN_DDCU_FRAME                      ********   *** removed from Debug\lin.o ***
+_LIN_IDFlag                          ********   *** removed from Debug\lin.o ***
+_LIN_IDProperty                      ********   *** removed from Debug\lin.o ***
+_LIN_OUT_TIME_FLAG                   ********   *** removed from Debug\lin.o ***
+_LIN_PDCU_FRAME                      ********   *** removed from Debug\lin.o ***
+_LIN_RAINS_FRAME                     ********   *** removed from Debug\lin.o ***
+_LIN_RECIVE_DataLength               ********   *** removed from Debug\lin.o ***
+_LIN_RLDCU_FRAME                     ********   *** removed from Debug\lin.o ***
+_LIN_RRDCU_FRAME                     ********   *** removed from Debug\lin.o ***
+_LIN_StateFlag                       ********   *** removed from Debug\lin.o ***
+_LINcfg                              ********   *** removed from Debug\lin.o ***
+_LINsendLen                          ********   *** removed from Debug\lin.o ***
+_LinRcBuffer                         ********   *** removed from Debug\lin.o ***
+_LinTxBuffer                         ********   *** removed from Debug\lin.o ***
+_LockDrvCmd                          0000046b   defined in Debug\lock_drv.o section .bss
+                                                used in Debug\main.o
+                                                        Debug\horn_drv.o
+                                                        Debug\rke_drv1.o
+                                                        Debug\udsoncandtc.o
+_LockRunCount                        0000045c   defined in Debug\lock_drv.o section .bss
+_LockState                           0000046d   defined in Debug\lock_drv.o section .bss
+                                                used in Debug\main.o
+                                                        Debug\horn_drv.o
+                                                        Debug\rke_drv1.o
+                                                        Debug\udsoncandtc.o
+_Lockonesstate                       00000462   defined in Debug\lock_drv.o section .bss
+                                                used in Debug\main.o
+_LostCommunication                   ********   *** removed from Debug\lin.o ***
+_MachineLocktime                     00000460   defined in Debug\lock_drv.o section .bss
+_MasterVehSpeedFault                 00000345   defined in Debug\can.o section .bss
+_MasterVehicleSpeed                  00000343   defined in Debug\can.o section .bss
+_NM_CAN_DATA                         0000029e   defined in Debug\can.o section .bss
+                                                used in Debug\st79_it.o
+_NM_Msg_Send                         0000017e   defined in Debug\can_nm_osek.o section .bss
+_NM_Msg_Send_Ttx                     00000173   defined in Debug\can_nm_osek.o section .bss
+_N_ASAR                              00000597   defined in Debug\udsoncan.o section .bss
+_N_BS                                00000595   defined in Debug\udsoncan.o section .bss
+_N_Br                                00000594   defined in Debug\udsoncan.o section .bss
+_N_CR                                00000592   defined in Debug\udsoncan.o section .bss
+_N_CS                                00000593   defined in Debug\udsoncan.o section .bss
+_N_ChangeParameter                   00000769   defined in Debug\udsoncan.o section .bss
+_N_PDU                               000006a1   defined in Debug\udsoncan.o section .bss
+_N_Result                            0000077d   defined in Debug\udsoncan.o section .bss
+_N_UDSDdata                          000007b7   defined in Debug\udsoncan.o section .bss
+_N_UDSDdata_FF                       0000076b   defined in Debug\udsoncan.o section .bss
+_ONESstate                           0000409b   defined in Debug\can.o
+                                                used in Debug\main.o
+_P2CAN_Server                        0000058b   defined in Debug\udsoncan.o section .bss
+_P2CAN_Server1                       00000589   defined in Debug\udsoncan.o section .bss
+_PACKPIDa442                         00000312   defined in Debug\can.o section .bss
+_PACKPIDe200                         0000030e   defined in Debug\can.o section .bss
+_PACKPIDe217                         0000030a   defined in Debug\can.o section .bss
+_PACKPIDe219                         00000308   defined in Debug\can.o section .bss
+_PACKPIDe21a                         00000304   defined in Debug\can.o section .bss
+_PIDbattervalue                      0000033c   defined in Debug\can.o section .bss
+_PIDsendstate                        0000033f   defined in Debug\can.o section .bss
+_PW                                  00000128   defined in Debug\rke_drv1.o section .data, initialized
+_PassWord1                           00004086   defined in Debug\can.o
+                                                used in Debug\main.o
+_PassWord2                           00004088   defined in Debug\can.o
+                                                used in Debug\main.o
+_QW                                  0000012a   defined in Debug\rke_drv1.o section .data, initialized
+_RKEBatteryVoltage_turn              00000824   defined in Debug\warm_drv.o section .bss
+                                                used in Debug\turnlamp_drv.o
+_RKEBatteryVoltageturnstate          0000048c   defined in Debug\rke_drv1.o section .bss
+                                                used in Debug\turnlamp_drv.o
+_RKEERRORSTATE                       00000127   defined in Debug\rke_drv1.o section .data, initialized
+_RKELOCKstate                        000001c8   defined in Debug\domelamp_drv.o section .bss
+                                                used in Debug\lock_drv.o
+                                                        Debug\rke_drv1.o
+_RKESETBUZZ                          00000126   defined in Debug\rke_drv1.o section .data, initialized
+_RKEStandByWakeupState               000001e4   defined in Debug\main.o section .bss
+_RKEStandByWakeupcnt                 000001e3   defined in Debug\main.o section .bss
+_RKEVOlCNT                           00004060   defined in Debug\rke_drv1.o
+_RKEWarmCancle                       0000048b   defined in Debug\rke_drv1.o section .bss
+_RKEZBTime                           000001de   defined in Debug\main.o section .bss
+_RKE_AutoLockCnt                     00000496   defined in Debug\rke_drv1.o section .bss
+_RKE_AutoLockFlag                    00000498   defined in Debug\rke_drv1.o section .bss
+                                                used in Debug\horn_drv.o
+                                                        Debug\warm_drv.o
+_RKE_CODE_OK                         00000479   defined in Debug\rke_drv1.o section .bss
+_RKE_COMMAND                         000004ad   defined in Debug\rke_drv1.o section .bss
+_RKE_COMMAND_StandBy_state           00000490   defined in Debug\rke_drv1.o section .bss
+                                                used in Debug\main.o
+_RKE_DATA_OK                         0000048a   defined in Debug\rke_drv1.o section .bss
+                                                used in Debug\st79_it.o
+_RKE_FIFO_DATA                       0000049d   defined in Debug\rke_drv1.o section .bss
+                                                used in Debug\st79_it.o
+_RKE_Resive_cnt                      0000047a   defined in Debug\rke_drv1.o section .bss
+_RKE_STEP                            000004af   defined in Debug\rke_drv1.o section .bss
+                                                used in Debug\st79_it.o
+_RKE_outtime                         00000489   defined in Debug\rke_drv1.o section .bss
+                                                used in Debug\st79_it.o
+_RKEopenTrunkWarm                    00000826   defined in Debug\warm_drv.o section .bss
+_RKEstadynumber                      00000488   defined in Debug\rke_drv1.o section .bss
+_RKEwakeTime                         000001da   defined in Debug\main.o section .bss
+_ROM_Sync_Code                       0000047d   defined in Debug\rke_drv1.o section .bss
+_RXITcnt                             0000011c   defined in Debug\can.o section .data, initialized
+                                                used in Debug\st79_it.o
+_RXREcnt                             0000011d   defined in Debug\can.o section .data, initialized
+_RX_SerialNum                        000004a9   defined in Debug\rke_drv1.o section .bss
+                                                used in Debug\main.o
+                                                        Debug\horn_drv.o
+_RX_Sync_Code                        0000049b   defined in Debug\rke_drv1.o section .bss
+_R_PDU                               000005d9   defined in Debug\udsoncan.o section .bss
+_Rearfogbutton                       000040a2   defined in Debug\can.o
+_RecData                             00000785   defined in Debug\udsoncan.o section .bss
+                                                used in Debug\st79_it.o
+_RetCode                             00004082   defined in Debug\can.o
+_RkeScanCnt                          000001e6   defined in Debug\main.o section .bss
+_RxBufIndex                          ********   *** removed from Debug\lin.o ***
+_Rx_Data                             000003e9   defined in Debug\can.o section .bss
+_Rx_Dlc                              000003f1   defined in Debug\can.o section .bss
+_Rx_Extid                            000003f2   defined in Debug\can.o section .bss
+_Rx_Flag                             000003e8   defined in Debug\can.o section .bss
+                                                used in Debug\st79_it.o
+_Rx_Msg                              00000347   defined in Debug\can.o section .bss
+                                                used in Debug\st79_it.o
+_Rx_Stdid                            000003f4   defined in Debug\can.o section .bss
+_S3Server                            00000587   defined in Debug\udsoncan.o section .bss
+_SF_FS                               00000782   defined in Debug\udsoncan.o section .bss
+_SKK                                 00000189   defined in Debug\decry.o section .bss
+_STmin                               00000599   defined in Debug\udsoncan.o section .bss
+_SWSZstate                           000001d7   defined in Debug\main.o section .bss
+_SalfeMode                           00000585   defined in Debug\udsoncan.o section .bss
+_SeatState                           00000834   defined in Debug\warm_drv.o section .bss
+_SeatWarnOld_state                   00000822   defined in Debug\warm_drv.o section .bss
+_SeatWarnType                        00000823   defined in Debug\warm_drv.o section .bss
+_SecurityAccess                      00004084   defined in Debug\can.o
+_SmallLampSwitchState                00000837   defined in Debug\warm_drv.o section .bss
+_Speedlock_ls                        000002fb   defined in Debug\can.o section .bss
+_Speedlockcnt                        0000045e   defined in Debug\lock_drv.o section .bss
+                                                used in Debug\can.o
+_StandByState                        000001ef   defined in Debug\main.o section .bss
+                                                used in Debug\horn_drv.o
+                                                        Debug\lock_drv.o
+                                                        Debug\turnlamp_drv.o
+                                                        Debug\warm_drv.o
+_StandTIM3state                      000001ee   defined in Debug\main.o section .bss
+_StandbyTime                         000001ea   defined in Debug\main.o section .bss
+_SysTimeFlag_2MS                     000001f6   defined in Debug\main.o section .bss
+                                                used in Debug\st79_it.o
+_SysTimeFlag_8MS                     000001f5   defined in Debug\main.o section .bss
+                                                used in Debug\st79_it.o
+_SystemMode                          00000586   defined in Debug\udsoncan.o section .bss
+_TBR_Array                           000080c1   defined in Debug\stm8_awu.o section .const
+_TCUEMSdtccnt1                       000002da   defined in Debug\can.o section .bss
+_TCUEMSdtccnt2                       000002d9   defined in Debug\can.o section .bss
+_TLSwitchRoadwayFlashCnt             00000521   defined in Debug\turnlamp_drv.o section .bss
+_TL_DUTY                             00000520   defined in Debug\turnlamp_drv.o section .bss
+_TL_PERIOD                           0000051f   defined in Debug\turnlamp_drv.o section .bss
+_TRUNKWarmstate                      00000464   defined in Debug\lock_drv.o section .bss
+                                                used in Debug\turnlamp_drv.o
+_TRUNK_UNLOCK_RKEstate               0000046a   defined in Debug\lock_drv.o section .bss
+                                                used in Debug\rke_drv1.o
+_TURNAD                              0000051a   defined in Debug\turnlamp_drv.o section .bss
+_TYPE                                0000077e   defined in Debug\udsoncan.o section .bss
+_Tim3CntTemp                         000004c1   defined in Debug\st79_it.o section .bss
+_TransmissionFailureStatus           000002db   defined in Debug\can.o section .bss
+_TrunkWarmTime                       00000827   defined in Debug\warm_drv.o section .bss
+                                                used in Debug\rke_drv1.o
+_TurnFlashCnt                        00000532   defined in Debug\turnlamp_drv.o section .bss
+                                                used in Debug\lock_drv.o
+                                                        Debug\rke_drv1.o
+_TurnLampCScmd                       00000522   defined in Debug\turnlamp_drv.o section .bss
+_TurnLampDrv                         0000052f   defined in Debug\turnlamp_drv.o section .bss
+                                                used in Debug\lock_drv.o
+                                                        Debug\udsoncandtc.o
+_TurnLampOnCnt                       00000523   defined in Debug\turnlamp_drv.o section .bss
+_TurnLampState                       00000524   defined in Debug\turnlamp_drv.o section .bss
+                                                used in Debug\udsoncandtc.o
+_TurnLamp_CrashKeepTime              0000052d   defined in Debug\turnlamp_drv.o section .bss
+                                                used in Debug\lock_drv.o
+_TurnState_Number                    0000051c   defined in Debug\turnlamp_drv.o section .bss
+_Turn_L_CH_State                     0000051d   defined in Debug\turnlamp_drv.o section .bss
+_Turn_L_State                        0000052b   defined in Debug\turnlamp_drv.o section .bss
+_Turn_R_CH_State                     0000051e   defined in Debug\turnlamp_drv.o section .bss
+_Turn_R_State                        0000052c   defined in Debug\turnlamp_drv.o section .bss
+_TxBufIndex                          ********   *** removed from Debug\lin.o ***
+_Tx_Msg                              000003d3   defined in Debug\can.o section .bss
+_UDSRITcnt                           00000784   defined in Debug\udsoncan.o section .bss
+                                                used in Debug\st79_it.o
+_UDSRuscnt                           00000783   defined in Debug\udsoncan.o section .bss
+_VehicleType                         00004080   defined in Debug\can.o
+                                                used in Debug\main.o Debug\lin.o
+_VehicleTypeEnable                   00004081   defined in Debug\can.o
+_VehicleTypePZ                       00000465   defined in Debug\lock_drv.o section .bss
+_WINFLdrv                            00000841   defined in Debug\window_drv.o section .bss
+_WakeInTime                          000001f2   defined in Debug\main.o section .bss
+_WakeState                           000001f4   defined in Debug\main.o section .bss
+                                                used in Debug\st79_it.o
+_WakeUpTime                          000001f0   defined in Debug\main.o section .bss
+_WarmType                            00000829   defined in Debug\warm_drv.o section .bss
+_WarningTimeCnt                      00000526   defined in Debug\turnlamp_drv.o section .bss
+_Warningstate                        0000052a   defined in Debug\turnlamp_drv.o section .bss
+                                                used in Debug\rke_drv1.o
+_WaveFilterCnt                       000001e5   defined in Debug\main.o section .bss
+                                                used in Debug\st79_it.o
+_WinKeyState                         00000842   defined in Debug\window_drv.o section .bss
+_WindowDriverState                   0000045b   defined in Debug\lock_drv.o section .bss
+_WindowDriverStateKeep               00000459   defined in Debug\lock_drv.o section .bss
+_WiperINTDiag                        000002fa   defined in Debug\can.o section .bss
+__endmem                             00000bff   defined in command file
+                                                *** not used ***
+__endzp                              0000000a   defined in command file section .ubsct
+                                                used in D:\Program Files\COSMIC\CXSTM8\Lib\crtsi.sm8
+__idesc__                            000081a3   defined in linker section .init
+                                                used in D:\Program Files\COSMIC\CXSTM8\Lib\crtsi.sm8
+__memory                             00000844   defined in command file section .bss
+                                                used in D:\Program Files\COSMIC\CXSTM8\Lib\crtsi.sm8
+__stack                              00000fff   defined in command file
+                                                used in D:\Program Files\COSMIC\CXSTM8\Lib\crtsi.sm8
+__startmem                           00000844   defined in command file section .bss
+                                                *** not used ***
+__stext                              000081fb   defined in D:\Program Files\COSMIC\CXSTM8\Lib\crtsi.sm8 section .text
+                                                *** not used ***
+__vectab                             00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_adChIndex                           00000234   defined in Debug\adc_drv.o section .bss
+                                                used in Debug\stm8_adc.o
+_adChannelTable                      00008174   defined in Debug\adc_drv.o section .const
+_adResult                            000001f7   defined in Debug\adc_drv.o section .bss
+_adResultTemp1                       0000033a   defined in Debug\can.o section .bss
+_adResultTemp2                       00000338   defined in Debug\can.o section .bss
+_adRstIndex                          00000233   defined in Debug\adc_drv.o section .bss
+                                                used in Debug\stm8_adc.o
+_battervalue                         0000033d   defined in Debug\can.o section .bss
+                                                used in Debug\defrost_drv.o
+                                                        Debug\turnlamp_drv.o
+                                                        Debug\udsoncandtc.o
+_bitCnt                              000004c3   defined in Debug\st79_it.o section .bss
+_busoffcnt                           000002f2   defined in Debug\can.o section .bss
+_busofftimecnt                       0000011f   defined in Debug\can.o section .data, initialized
+                                                used in Debug\st79_it.o
+_buzzdrvStrategy                     000007f5   defined in Debug\warm_drv.o section .bss
+_canrextime                          000004c4   defined in Debug\st79_it.o section .bss
+                                                used in Debug\main.o
+_cansendbusoff                       000002f5   defined in Debug\can.o section .bss
+                                                used in Debug\st79_it.o
+_cansendstate                        000002f6   defined in Debug\can.o section .bss
+                                                used in Debug\main.o
+_charshtime                          00000457   defined in Debug\lock_drv.o section .bss
+_count                               000001c9   defined in Debug\domelamp_drv.o section .bss
+_crashlockstate                      00000461   defined in Debug\lock_drv.o section .bss
+_dooropenlock                        0000045f   defined in Debug\lock_drv.o section .bss
+                                                used in Debug\rke_drv1.o
+_f_RKE_SerialNum                     00004000   defined in Debug\rke_drv1.o
+_f_RKE_SysnCode                      00004020   defined in Debug\rke_drv1.o
+_f_SKey_B                            0000817d   defined in Debug\rke_drv1.o section .const
+_fade_out_time                       000001ca   defined in Debug\domelamp_drv.o section .bss
+_gCanNormalMsgActive                 000002ec   defined in Debug\can.o section .bss
+                                                used in Debug\can_nm_osek.o
+_gDectID_EMS_255_Flag                000002e4   defined in Debug\can.o section .bss
+                                                used in Debug\st79_it.o
+_gDectID_IP_270_Flag                 000002e2   defined in Debug\can.o section .bss
+                                                used in Debug\st79_it.o
+_gLocalWakeupFlag                    000002ee   defined in Debug\can.o section .bss
+                                                used in Debug\can_nm_osek.o
+                                                        Debug\main.o
+                                                        Debug\rke_drv1.o
+                                                        Debug\st79_it.o
+_gNMCANBatFlag                       000002e1   defined in Debug\can.o section .bss
+                                                used in Debug\can_nm_osek.o
+                                                        Debug\main.o
+_gNMCanBusOff                        000002ea   defined in Debug\can.o section .bss
+                                                used in Debug\can_nm_osek.o
+                                                        Debug\st79_it.o
+_gNMHasSleeped                       000002eb   defined in Debug\can.o section .bss
+                                                used in Debug\can_nm_osek.o
+                                                        Debug\main.o
+_gNMMerker                           00000171   defined in Debug\can_nm_osek.o section .bss
+_gNMMsgTransitFlag                   000002ef   defined in Debug\can.o section .bss
+                                                used in Debug\can_nm_osek.o
+_gNM_Config                          00000170   defined in Debug\can_nm_osek.o section .bss
+_gNetWorkStatus                      000002e6   defined in Debug\can.o section .bss
+                                                used in Debug\can_nm_osek.o
+                                                        Debug\main.o
+                                                        Debug\rke_drv1.o
+_gNodeMiss_EMS_255                   000002e5   defined in Debug\can.o section .bss
+_gNodeMiss_IP_270                    000002e3   defined in Debug\can.o section .bss
+_gRemoteWakeupFlag                   000002ed   defined in Debug\can.o section .bss
+                                                used in Debug\can_nm_osek.o
+_gTimeOskeBase                       000002f0   defined in Debug\can.o section .bss
+                                                used in Debug\can_nm_osek.o
+                                                        Debug\st79_it.o
+_insleepnetcnt                       00000117   defined in Debug\main.o section .data, initialized
+_itemp                               00000477   defined in Debug\rke_drv1.o section .bss
+_keyerror1                           00000591   defined in Debug\udsoncan.o section .bss
+_keyerror2                           00000590   defined in Debug\udsoncan.o section .bss
+_keyerrorclosetime                   0000058e   defined in Debug\udsoncan.o section .bss
+_keyindex                            0000048f   defined in Debug\rke_drv1.o section .bss
+_keyinstatesleep                     00000118   defined in Debug\main.o section .data, initialized
+_ledcnt                              00000530   defined in Debug\turnlamp_drv.o section .bss
+_lockcount                           0000045a   defined in Debug\lock_drv.o section .bss
+_nPrecodeCnt                         000004ae   defined in Debug\rke_drv1.o section .bss
+_pword1                              000002df   defined in Debug\can.o section .bss
+_pword2                              000002de   defined in Debug\can.o section .bss
+_pwordwriteenble                     000002dd   defined in Debug\can.o section .bss
+_reserved1                           0000542e   defined in Debug\domelamp_drv.o
+_reserved2                           0000542f   defined in Debug\domelamp_drv.o
+_reserved3                           00005435   defined in Debug\domelamp_drv.o
+_reserved4                           00005436   defined in Debug\domelamp_drv.o
+_reserved5                           00005437   defined in Debug\domelamp_drv.o
+_salfmode                            000002f9   defined in Debug\can.o section .bss
+_sendonse                            000002dc   defined in Debug\can.o section .bss
+_sjs                                 000007ba   defined in Debug\udsoncan.o section .bss
+                                                used in Debug\st79_it.o
+_speedlockset                        0000046e   defined in Debug\lock_drv.o section .bss
+                                                used in Debug\udsoncan.o
+_studyunlockcnt                      0000047b   defined in Debug\rke_drv1.o section .bss
+_time3e                              0000058c   defined in Debug\udsoncan.o section .bss
+_timexxx1                            00000455   defined in Debug\lock_drv.o section .bss
+_timxxx2                             00000453   defined in Debug\lock_drv.o section .bss
+_turnaverad                          00000516   defined in Debug\turnlamp_drv.o section .bss
+_turnfindcarstate                    0000012c   defined in Debug\turnlamp_drv.o section .data, initialized
+                                                used in Debug\lock_drv.o
+                                                        Debug\rke_drv1.o
+_turnshortad                         00000518   defined in Debug\turnlamp_drv.o section .bss
+_unlockdriverstate                   0000408a   defined in Debug\rke_drv1.o
+_wLockProtectTimeCnt                 00000466   defined in Debug\lock_drv.o section .bss
+                                                used in Debug\rke_drv1.o
+_wakelintime                         000001df   defined in Debug\main.o section .bss
+_wakerkestate                        000001d6   defined in Debug\main.o section .bss
+_wakestate                           000001e8   defined in Debug\main.o section .bss
+_warmstate                           0000408b   defined in Debug\lock_drv.o
+                                                used in Debug\main.o
+c_lreg                               00000000   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lreg.o section .ubsct
+                                                used in Debug\stm8_awu.o
+                                                        Debug\stm8_clk.o
+                                                        Debug\stm8_flash.o
+                                                        Debug\stm8_linuart.o
+                                                        Debug\stm8_usart.o
+                                                        Debug\adc_drv.o
+                                                        Debug\rke_drv1.o
+                                                        Debug\turnlamp_drv.o
+                                                        Debug\udsoncan.o
+                                                        Debug\udsoncandtc.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)cmulx.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)itolx.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ladc.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ladd.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lcmp.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lgadd.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)llsh.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lsub.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ltor.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ldiv.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lneg.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lursh.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)rtol.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)smul.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)utol.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)utolx.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)umul.o
+c_x                                  00000004   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)xreg.o section .ubsct
+                                                used in D:\Program Files\COSMIC\CXSTM8\Lib\crtsi.sm8
+                                                        Debug\can_nm_osek.o
+                                                        Debug\decry.o
+                                                        Debug\main.o
+                                                        Debug\stm8_awu.o
+                                                        Debug\stm8_flash.o
+                                                        Debug\rke_drv1.o
+                                                        Debug\st79_it.o
+                                                        Debug\turnlamp_drv.o
+                                                        Debug\udsoncan.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)imul.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)jtab.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ldiv.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)umul.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)xymvx.o
+c_y                                  00000007   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)yreg.o section .ubsct
+                                                used in D:\Program Files\COSMIC\CXSTM8\Lib\crtsi.sm8
+                                                        Debug\st79_it.o
+                                                        (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)umul.o
+d_cmulx                              00010ec0   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)cmulx.o section .text
+                                                used in Debug\stm8_flash.o
+d_divsl                              00011022   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ldiv.o section .text
+                                                *** not used ***
+d_divul                              0001103b   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ldiv.o section .text
+                                                used in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ludiv.o
+d_idiv                               00010ed4   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)idiv.o section .text
+                                                used in Debug\udsoncan.o
+d_imul                               00010ef2   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)imul.o section .text
+                                                used in Debug\stm8_awu.o
+                                                        Debug\udsoncan.o
+d_itolx                              00010f13   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)itolx.o section .text
+                                                used in Debug\rke_drv1.o
+d_jctab                              00010f21   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)jtab.o section .text
+                                                used in Debug\stm8_itc.o
+                                                        Debug\can.o
+d_jstab                              00010f23   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)jtab.o section .text
+                                                *** not used ***
+d_ladc                               00010f4e   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ladc.o section .text
+                                                used in Debug\stm8_flash.o
+d_ladd                               00010f5f   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ladd.o section .text
+                                                used in Debug\rke_drv1.o
+                                                        Debug\udsoncan.o
+d_lcmp                               00010f77   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lcmp.o section .text
+                                                used in Debug\stm8_awu.o
+                                                        Debug\stm8_flash.o
+                                                        Debug\stm8_linuart.o
+                                                        Debug\stm8_usart.o
+                                                        Debug\horn_drv.o
+                                                        Debug\rke_drv1.o
+                                                        Debug\turnlamp_drv.o
+                                                        Debug\warm_drv.o
+d_lgadc                              00010f97   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lgadc.o section .text
+                                                used in Debug\main.o Debug\can.o
+                                                        Debug\rke_drv1.o
+d_lgadd                              00010fa7   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lgadd.o section .text
+                                                used in Debug\stm8_flash.o
+                                                        Debug\adc_drv.o
+                                                        Debug\turnlamp_drv.o
+                                                        Debug\udsoncan.o
+d_lgneg                              0001110f   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lgneg.o section .text
+                                                used in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ldiv.o
+d_lgsbc                              00010fbe   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lgsbc.o section .text
+                                                used in Debug\domelamp_drv.o
+                                                        Debug\defrost_drv.o
+                                                        Debug\turnlamp_drv.o
+d_llsh                               00010fd4   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)llsh.o section .text
+                                                used in Debug\stm8_linuart.o
+                                                        Debug\stm8_usart.o
+                                                        Debug\rke_drv1.o
+                                                        Debug\udsoncan.o
+d_lneg                               00011122   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lneg.o section .text
+                                                used in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ldiv.o
+d_lsub                               00010fe3   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lsub.o section .text
+                                                used in Debug\stm8_linuart.o
+                                                        Debug\stm8_usart.o
+                                                        Debug\adc_drv.o
+d_ltor                               00010ffb   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ltor.o section .text
+                                                used in Debug\stm8_awu.o
+                                                        Debug\stm8_clk.o
+                                                        Debug\stm8_flash.o
+                                                        Debug\stm8_linuart.o
+                                                        Debug\stm8_usart.o
+                                                        Debug\adc_drv.o
+                                                        Debug\horn_drv.o
+                                                        Debug\rke_drv1.o
+                                                        Debug\turnlamp_drv.o
+d_ludv                               0001100d   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)ludiv.o section .text
+                                                used in Debug\stm8_awu.o
+                                                        Debug\stm8_clk.o
+                                                        Debug\stm8_linuart.o
+                                                        Debug\stm8_usart.o
+d_lursh                              00011137   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lursh.o section .text
+                                                used in Debug\stm8_linuart.o
+                                                        Debug\stm8_usart.o
+                                                        Debug\adc_drv.o
+                                                        Debug\turnlamp_drv.o
+                                                        Debug\udsoncan.o
+d_lzmp                               00011146   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)lzmp.o section .text
+                                                used in Debug\domelamp_drv.o
+                                                        Debug\main.o
+                                                        Debug\defrost_drv.o
+                                                        Debug\rke_drv1.o
+                                                        Debug\turnlamp_drv.o
+d_rtol                               00011158   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)rtol.o section .text
+                                                used in Debug\main.o
+                                                        Debug\stm8_clk.o
+                                                        Debug\stm8_flash.o
+                                                        Debug\stm8_linuart.o
+                                                        Debug\stm8_usart.o
+                                                        Debug\adc_drv.o
+                                                        Debug\can.o
+                                                        Debug\lock_drv.o
+                                                        Debug\rke_drv1.o
+                                                        Debug\udsoncan.o
+d_uitol                              0001116a   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)utol.o section .text
+                                                used in Debug\rke_drv1.o
+d_uitolx                             00011175   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)utolx.o section .text
+                                                used in Debug\main.o
+                                                        Debug\stm8_flash.o
+                                                        Debug\adc_drv.o
+                                                        Debug\can.o
+                                                        Debug\lock_drv.o
+                                                        Debug\rke_drv1.o
+                                                        Debug\turnlamp_drv.o
+                                                        Debug\udsoncan.o
+                                                        Debug\udsoncandtc.o
+                                                        Debug\warm_drv.o
+d_umul                               0001117c   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)umul.o section .text
+                                                used in Debug\stm8_flash.o
+d_xymvx                              000111b8   defined in (D:\Program Files\COSMIC\CXSTM8\Lib\libm.sm8)xymvx.o section .text
+                                                used in Debug\can.o
+                                                        Debug\udsoncan.o
+f_ADC_ClearFlag                      000098b2   defined in Debug\stm8_adc.o section .text
+                                                *** not used ***
+f_ADC_Cmd                            000098b7   defined in Debug\stm8_adc.o section .text
+f_ADC_ConversionConfig               00009907   defined in Debug\stm8_adc.o section .text
+f_ADC_DeInit                         000098e0   defined in Debug\stm8_adc.o section .text
+                                                *** not used ***
+f_ADC_ExternalTriggerConfig          00009c58   defined in Debug\stm8_adc.o section .text
+f_ADC_GetConversionValue             00009bc1   defined in Debug\stm8_adc.o section .text
+                                                *** not used ***
+f_ADC_GetFlagStatus                  00009c3e   defined in Debug\stm8_adc.o section .text
+                                                *** not used ***
+f_ADC_GetITStatus                    00009c4b   defined in Debug\stm8_adc.o section .text
+                                                *** not used ***
+f_ADC_GetValue                       00009bf1   defined in Debug\stm8_adc.o section .text
+                                                used in Debug\adc_drv.o
+f_ADC_IRQHandler                     0000cfd5   defined in Debug\st79_it.o section .text
+                                                *** not used ***
+f_ADC_ITCmd                          00009b9d   defined in Debug\stm8_adc.o section .text
+                                                *** not used ***
+f_ADC_Init                           000099a9   defined in Debug\stm8_adc.o section .text
+                                                *** not used ***
+f_ADC_PrescalerConfig                00009b5f   defined in Debug\stm8_adc.o section .text
+f_ADC_Scan                           0000ad01   defined in Debug\adc_drv.o section .text
+                                                used in Debug\main.o
+f_ADC_SchmittTriggerConfig           00009ca3   defined in Debug\stm8_adc.o section .text
+f_ADC_Start                          0000acdb   defined in Debug\adc_drv.o section .text
+                                                used in Debug\sys_init.o
+f_ADC_StartConversion                000098db   defined in Debug\stm8_adc.o section .text
+                                                *** not used ***
+f_ADC_Stop                           0000acf0   defined in Debug\adc_drv.o section .text
+                                                *** not used ***
+f_ADC_StructInit                     000098f5   defined in Debug\stm8_adc.o section .text
+                                                *** not used ***
+f_ADC_init                           00009b26   defined in Debug\stm8_adc.o section .text
+                                                used in Debug\sys_init.o
+f_AWU_AutoLSICalibration             00009e16   defined in Debug\stm8_awu.o section .text
+                                                *** not used ***
+f_AWU_ClearFlag                      00009eed   defined in Debug\stm8_awu.o section .text
+                                                *** not used ***
+f_AWU_Cmd                            00009ee0   defined in Debug\stm8_awu.o section .text
+                                                *** not used ***
+f_AWU_DeInit                         00009d91   defined in Debug\stm8_awu.o section .text
+                                                *** not used ***
+f_AWU_GetFlagStatus                  00009ef1   defined in Debug\stm8_awu.o section .text
+                                                *** not used ***
+f_AWU_IRQHandler                     0000c9c4   defined in Debug\st79_it.o section .text
+                                                used in Debug\stm8_interrupt_vector.o
+f_AWU_IdleModeEnable                 00009efb   defined in Debug\stm8_awu.o section .text
+                                                *** not used ***
+f_AWU_Init                           00009e60   defined in Debug\stm8_awu.o section .text
+                                                used in Debug\main.o
+f_AWU_LSICalibrationConfig           00009d9e   defined in Debug\stm8_awu.o section .text
+f_AWU_ReInitCounter                  00009f08   defined in Debug\stm8_awu.o section .text
+                                                *** not used ***
+f_BCMsjs                             0000facf   defined in Debug\udsoncan.o section .text
+f_BUSoff                             0000ae20   defined in Debug\can.o section .text
+                                                used in Debug\main.o
+f_BuzzCANsend                        00010d87   defined in Debug\warm_drv.o section .text
+f_BuzzerDrv                          00010b89   defined in Debug\warm_drv.o section .text
+                                                used in Debug\lock_drv.o
+                                                        Debug\rke_drv1.o
+f_CANHardwave_Init                   0000ae78   defined in Debug\can.o section .text
+                                                used in Debug\can_nm_osek.o
+                                                        Debug\main.o
+f_CANRX                              0000b13b   defined in Debug\can.o section .text
+                                                used in Debug\main.o
+f_CANSend                            0000affd   defined in Debug\can.o section .text
+                                                used in Debug\main.o
+f_CAN_DisableDiagMode                0000b413   defined in Debug\can.o section .text
+                                                *** not used ***
+f_CAN_EnableDiagMode                 0000b3f6   defined in Debug\can.o section .text
+                                                used in Debug\sys_init.o
+f_CAN_Init                           0000af4f   defined in Debug\can.o section .text
+                                                used in Debug\sys_init.o
+f_CAN_RX_IRQHandler                  0000cb8b   defined in Debug\st79_it.o section .text
+                                                used in Debug\stm8_interrupt_vector.o
+f_CAN_Send1                          0000b0a7   defined in Debug\can.o section .text
+f_CAN_TX_IRQHandler                  0000cdf9   defined in Debug\st79_it.o section .text
+                                                used in Debug\stm8_interrupt_vector.o
+f_CAN_WakeUp                         0000b3ec   defined in Debug\can.o section .text
+                                                used in Debug\sys_init.o
+f_CAN_send2                          0000b038   defined in Debug\can.o section .text
+                                                used in Debug\udsoncan.o
+f_CANenble                           0000b507   defined in Debug\can.o section .text
+                                                used in Debug\main.o
+f_CLK_AdjustHSICalibrationValue      0000a57b   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_CANConfig                      0000a40c   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_CCOCmd                         0000a08c   defined in Debug\stm8_clk.o section .text
+f_CLK_CCOConfig                      0000a2d4   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_ClearITPendingBit              0000a5b9   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_ClockSecuritySystemEnable      0000a44a   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_ClockSwitchCmd                 0000a0b0   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_ClockSwitchConfig              0000a17f   defined in Debug\stm8_clk.o section .text
+f_CLK_DeInit                         00009f0d   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_GetClockFreq                   0000a50e   defined in Debug\stm8_clk.o section .text
+                                                used in Debug\stm8_awu.o
+                                                        Debug\stm8_linuart.o
+                                                        Debug\stm8_usart.o
+f_CLK_GetFlagStatus                  0000a485   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_GetITStatus                    0000a453   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_GetSYSCLKSource                0000a44f   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_HSECmd                         0000a020   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_HSICmd                         0000a044   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_HSIConfig                      0000a25f   defined in Debug\stm8_clk.o section .text
+f_CLK_IRQHandler                     0000c9c8   defined in Debug\st79_it.o section .text
+                                                *** not used ***
+f_CLK_ITConfig                       0000a32c   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_Init                           00009f5b   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_LSICmd                         0000a068   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_LSIConfig                      0000a2b0   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_PeripheralClockConfig          0000a0d4   defined in Debug\stm8_clk.o section .text
+                                                used in Debug\timer2_3.o
+f_CLK_SWIMConfig                     0000a3e9   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_SYSCLKConfig                   0000a387   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_SYSCLKEmergencyClear           0000a5dc   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CLK_StructInit                     00009f47   defined in Debug\stm8_clk.o section .text
+                                                *** not used ***
+f_CanCanInterruptDisable             0000b4d8   defined in Debug\can.o section .text
+                                                *** not used ***
+f_CanCanInterruptRestore             0000b4ef   defined in Debug\can.o section .text
+                                                used in Debug\sys_init.o
+f_CanMsgTransmit                     0000b42e   defined in Debug\can.o section .text
+f_CanSendMsg                         0000aeba   defined in Debug\can.o section .text
+                                                used in Debug\can_nm_osek.o
+f_Check_RKE_Receive_Timeout          0000c886   defined in Debug\rke_drv1.o section .text
+                                                *** not used ***
+f_ClearBuzzdrv                       00010bfb   defined in Debug\warm_drv.o section .text
+                                                used in Debug\horn_drv.o
+                                                        Debug\rke_drv1.o
+f_ClearDTC                           0000b515   defined in Debug\can.o section .text
+                                                used in Debug\main.o
+f_ClearDidvalue                      0000f09c   defined in Debug\udsoncan.o section .text
+f_ClearNPDUbuff                      0000fdd0   defined in Debug\udsoncan.o section .text
+f_ClearRPDUbuff                      0000fd9a   defined in Debug\udsoncan.o section .text
+f_Clear_WDT                          0000d148   defined in Debug\sys_init.o section .text
+                                                used in Debug\main.o Debug\lin.o
+                                                        Debug\can.o
+                                                        Debug\rke_drv1.o
+f_Crash_CAN                          0000bb87   defined in Debug\lock_drv.o section .text
+f_DECODE_PROC                        0000c3dc   defined in Debug\rke_drv1.o section .text
+f_DECRYPT                            00008bcf   defined in Debug\decry.o section .text
+f_DTCinit                            0000fb0e   defined in Debug\udsoncan.o section .text
+                                                used in Debug\main.o
+f_DeceCount                          0000b5fe   defined in Debug\can.o section .text
+f_DeceSettingValue                   0000b57e   defined in Debug\can.o section .text
+f_DecelerationSetting                0000b6cd   defined in Debug\can.o section .text
+                                                used in Debug\sys_init.o
+f_DecelerationThresholds             0000b662   defined in Debug\can.o section .text
+f_Decrypt                            00008cb3   defined in Debug\decry.o section .text
+                                                used in Debug\rke_drv1.o
+f_DiagnosticateTactic                0000b506   defined in Debug\can.o section .text
+                                                *** not used ***
+f_Did2einit                          0000eb1b   defined in Debug\udsoncan.o section .text
+                                                used in Debug\main.o
+f_Did2esave                          0000ebc6   defined in Debug\udsoncan.o section .text
+                                                used in Debug\main.o
+f_DomeLampsDriver                    00008daa   defined in Debug\domelamp_drv.o section .text
+f_EEPROM_EEC_IRQHandler              0000d037   defined in Debug\st79_it.o section .text
+                                                *** not used ***
+f_EXTI_DeInit                        0000a5e1   defined in Debug\stm8_exti.o section .text
+                                                *** not used ***
+f_EXTI_GetExtIntSensitivity          0000a6b3   defined in Debug\stm8_exti.o section .text
+                                                *** not used ***
+f_EXTI_GetTLISensitivity             0000a70f   defined in Debug\stm8_exti.o section .text
+                                                *** not used ***
+f_EXTI_PORTA_IRQHandler              0000c9c9   defined in Debug\st79_it.o section .text
+                                                *** not used ***
+f_EXTI_PORTB_IRQHandler              0000c9ca   defined in Debug\st79_it.o section .text
+                                                *** not used ***
+f_EXTI_PORTC_IRQHandler              0000c9cb   defined in Debug\st79_it.o section .text
+                                                *** not used ***
+f_EXTI_PORTD_IRQHandler              0000c9cd   defined in Debug\st79_it.o section .text
+                                                used in Debug\stm8_interrupt_vector.o
+f_EXTI_PORTE_IRQHandler              0000c9cc   defined in Debug\st79_it.o section .text
+                                                *** not used ***
+f_EXTI_SetExtIntSensitivity          0000a5ea   defined in Debug\stm8_exti.o section .text
+                                                used in Debug\rke_drv1.o
+                                                        Debug\st79_it.o
+                                                        Debug\sys_init.o
+f_EXTI_SetTLISensitivity             0000a691   defined in Debug\stm8_exti.o section .text
+                                                *** not used ***
+f_FLASH_ClearFlags                   0000a718   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_DeInit                       0000a71c   defined in Debug\stm8_flash.o section .text
+                                                used in Debug\main.o
+                                                        Debug\sys_init.o
+f_FLASH_EraseBlock                   0000a734   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_EraseByte                    0000a7d9   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_EraseOptionByte              0000a84b   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_GetBootMemSize               0000a8ae   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_GetITStatus                  0000a8e0   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_GetLowPowerMode              0000a8ea   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_GetProgrammingTime           0000a8f0   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_ITConfig                     0000a8f6   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_Lock                         0000a903   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_ProgramBlock                 0000a935   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_ProgramByte                  0000a9f6   defined in Debug\stm8_flash.o section .text
+                                                used in Debug\main.o Debug\can.o
+                                                        Debug\lock_drv.o
+                                                        Debug\rke_drv1.o
+f_FLASH_ProgramOptionByte            0000aa6b   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_ProgramWord                  0000aad1   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_ReadByte                     0000aafe   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_ReadOptionByte               0000ab6b   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_SetLowPowerMode              0000abdf   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_SetProgrammingTime           0000ac0d   defined in Debug\stm8_flash.o section .text
+                                                *** not used ***
+f_FLASH_Unlock                       0000ac4c   defined in Debug\stm8_flash.o section .text
+                                                used in Debug\main.o
+                                                        Debug\sys_init.o
+f_FLASH_WaitForLastOperation         0000ac2e   defined in Debug\stm8_flash.o section .text
+f_FindCar                            0000dbb5   defined in Debug\turnlamp_drv.o section .text
+                                                used in Debug\main.o
+f_GPIO_DeInit                        ********   *** removed from Debug\stm8_gpio.o ***
+f_GPIO_Init                          ********   *** removed from Debug\stm8_gpio.o ***
+f_GPIO_ReadInputData                 ********   *** removed from Debug\stm8_gpio.o ***
+f_GPIO_ReadOutputData                ********   *** removed from Debug\stm8_gpio.o ***
+f_GPIO_StructInit                    ********   *** removed from Debug\stm8_gpio.o ***
+f_GPIO_SysInit                       0000d0ef   defined in Debug\sys_init.o section .text
+f_GPIO_UserInit                      0000d14d   defined in Debug\sys_init.o section .text
+f_GPIO_Write                         ********   *** removed from Debug\stm8_gpio.o ***
+f_GPIO_WriteHigh                     ********   *** removed from Debug\stm8_gpio.o ***
+f_GPIO_WriteLow                      ********   *** removed from Debug\stm8_gpio.o ***
+f_GPIO_WriteReverse                  ********   *** removed from Debug\stm8_gpio.o ***
+f_GetADCresultAverage                0000ad41   defined in Debug\adc_drv.o section .text
+                                                used in Debug\defrost_drv.o
+                                                        Debug\lock_drv.o
+                                                        Debug\turnlamp_drv.o
+                                                        Debug\udsoncandtc.o
+                                                        Debug\window_drv.o
+f_HORNFJwarm                         ********   *** removed from Debug\lin.o ***
+f_I2C_IRQHandler                     0000cfd2   defined in Debug\st79_it.o section .text
+                                                *** not used ***
+f_INITrkenumber                      0000c1e2   defined in Debug\rke_drv1.o section .text
+                                                used in Debug\udsoncan.o
+f_ITC_DeInit                         ********   *** removed from Debug\stm8_itc.o ***
+f_ITC_GetCPUCC                       ********   *** removed from Debug\stm8_itc.o ***
+f_ITC_GetSoftIntStatus               ********   *** removed from Debug\stm8_itc.o ***
+f_ITC_GetSoftwarePriority            ********   *** removed from Debug\stm8_itc.o ***
+f_ITC_SetSoftwarePriority            ********   *** removed from Debug\stm8_itc.o ***
+f_IWDG_Enable                        ********   *** removed from Debug\stm8_iwdg.o ***
+f_IWDG_ReloadCounter                 ********   *** removed from Debug\stm8_iwdg.o ***
+f_IWDG_SetPrescaler                  ********   *** removed from Debug\stm8_iwdg.o ***
+f_IWDG_SetReload                     ********   *** removed from Debug\stm8_iwdg.o ***
+f_IWDG_WriteAccessCmd                ********   *** removed from Debug\stm8_iwdg.o ***
+f_InOutputWake                       000092b0   defined in Debug\main.o section .text
+f_InPutWake                          0000908c   defined in Debug\main.o section .text
+f_JudgeDefrostDriver                 0000b826   defined in Debug\defrost_drv.o section .text
+                                                used in Debug\main.o
+f_JudgeDomeLampDriver                00008d26   defined in Debug\domelamp_drv.o section .text
+                                                used in Debug\main.o
+f_JudgeHornDriver                    0000b9fd   defined in Debug\horn_drv.o section .text
+                                                used in Debug\main.o
+f_JudgeLockDriver                    0000be13   defined in Debug\lock_drv.o section .text
+                                                used in Debug\main.o
+f_JudgeTurnLampDrv                   0000d844   defined in Debug\turnlamp_drv.o section .text
+                                                used in Debug\main.o
+f_JudgeWarmTypeAndDriver             00010afd   defined in Debug\warm_drv.o section .text
+                                                used in Debug\main.o
+f_LINControlDTC                      ********   *** removed from Debug\lin.o ***
+f_LINUART_ClearFlag                  ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_ClearITPendingBit          ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_Cmd                        ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_DeInit                     ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_GetFlagStatus              ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_GetITStatus                ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_ITConfig                   ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_Init                       ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_LINBreakDetectionConfig    ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_LINCmd                     ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_LINConfig                  ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_RX_IRQHandler              0000cfd4   defined in Debug\st79_it.o section .text
+                                                used in Debug\stm8_interrupt_vector.o
+f_LINUART_ReceiveData8               ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_ReceiveData9               ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_ReceiverWakeUpCmd          ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_SendBreak                  ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_SendData8                  ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_SendData9                  ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_SetAddress                 ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_StructInit                 ********   *** removed from Debug\stm8_linuart.o ***
+f_LINUART_TX_IRQHandler              0000cfd3   defined in Debug\st79_it.o section .text
+                                                used in Debug\stm8_interrupt_vector.o
+f_LINUART_WakeUpConfig               ********   *** removed from Debug\stm8_linuart.o ***
+f_LIN_BCM1_init                      ********   *** removed from Debug\lin.o ***
+f_LIN_BCM2_init                      ********   *** removed from Debug\lin.o ***
+f_LIN_DDCU_init                      ********   *** removed from Debug\lin.o ***
+f_LIN_FrameInit                      ********   *** removed from Debug\lin.o ***
+f_LIN_Init                           ********   *** removed from Debug\lin.o ***
+f_LIN_LinRcBuffer_init               ********   *** removed from Debug\lin.o ***
+f_LIN_PDCU_init                      ********   *** removed from Debug\lin.o ***
+f_LIN_PutMsg                         ********   *** removed from Debug\lin.o ***
+f_LIN_RAINS_init                     ********   *** removed from Debug\lin.o ***
+f_LIN_RLDCU_init                     ********   *** removed from Debug\lin.o ***
+f_LIN_RRDCU_init                     ********   *** removed from Debug\lin.o ***
+f_LIN_SCIOFF                         ********   *** removed from Debug\lin.o ***
+f_LIN_SCIReciveData                  ********   *** removed from Debug\lin.o ***
+f_LIN_SCISendBreak                   ********   *** removed from Debug\lin.o ***
+f_LIN_SCISendData                    ********   *** removed from Debug\lin.o ***
+f_LIN_SCISendHeader                  ********   *** removed from Debug\lin.o ***
+f_LIN_SCISendSYNField                ********   *** removed from Debug\lin.o ***
+f_LevelOneKeyArith                   0000fc66   defined in Debug\udsoncan.o section .text
+f_LinTaskScheduler                   ********   *** removed from Debug\lin.o ***
+f_Lockhot                            0000bf52   defined in Debug\lock_drv.o section .text
+f_MMXG3b01                           0000b3aa   defined in Debug\can.o section .text
+                                                *** not used ***
+f_MachineKeyDrv                      0000c0be   defined in Debug\lock_drv.o section .text
+                                                used in Debug\main.o
+f_NMInit_Exit_Normal                 00008915   defined in Debug\can_nm_osek.o section .text
+f_NMInit_WaitSleep_Limphome          000089b0   defined in Debug\can_nm_osek.o section .text
+f_NMInit_WaitSleep_Normal            0000899f   defined in Debug\can_nm_osek.o section .text
+f_NM_FunBusOff                       00008b96   defined in Debug\can_nm_osek.o section .text
+f_NM_Function_Main                   0000827f   defined in Debug\can_nm_osek.o section .text
+                                                used in Debug\st79_it.o
+f_NM_Function_OSEK                   0000833c   defined in Debug\can_nm_osek.o section .text
+f_NM_Limphome_Presleep_TmaxTimeout   00008b53   defined in Debug\can_nm_osek.o section .text
+f_NM_Limphome_Presleep_TransitMsg    00008b45   defined in Debug\can_nm_osek.o section .text
+f_NM_Limphome_TerrorTimeout          00008ab7   defined in Debug\can_nm_osek.o section .text
+f_NM_Limphome_TransitMsg             00008b33   defined in Debug\can_nm_osek.o section .text
+f_NM_NodeSkip                        000088af   defined in Debug\can_nm_osek.o section .text
+f_NM_NodeSkipDispose                 000088ce   defined in Debug\can_nm_osek.o section .text
+f_NM_Normal_CanSleep                 00008a64   defined in Debug\can_nm_osek.o section .text
+                                                *** not used ***
+f_NM_Normal_Presleep_TtypTimeout     00008a6f   defined in Debug\can_nm_osek.o section .text
+f_NM_Normal_TmaxTimeout              00008a60   defined in Debug\can_nm_osek.o section .text
+f_NM_Normal_TransitMsg               00008a39   defined in Debug\can_nm_osek.o section .text
+f_NM_Normal_TtypTimeout              000089c1   defined in Debug\can_nm_osek.o section .text
+f_NM_OSEK_Init                       00008258   defined in Debug\can_nm_osek.o section .text
+                                                used in Debug\main.o
+f_NM_RecMsg                          00008671   defined in Debug\can_nm_osek.o section .text
+f_NM_RecMsgSave                      0000aee0   defined in Debug\can.o section .text
+                                                used in Debug\can_nm_osek.o
+f_NM_RecMsg_StandardNM               000087e8   defined in Debug\can_nm_osek.o section .text
+f_NM_StateShutDown                   00008247   defined in Debug\can_nm_osek.o section .text
+f_NM_Timer_Main                      00008554   defined in Debug\can_nm_osek.o section .text
+f_NN_OSEK_StateDetect                00008b57   defined in Debug\can_nm_osek.o section .text
+f_NonHandledInterrupt                0000c9c1   defined in Debug\st79_it.o section .text
+                                                used in Debug\stm8_interrupt_vector.o
+f_ONSEINITEeprom                     00009368   defined in Debug\main.o section .text
+                                                *** not used ***
+f_OneSecondWake                      00009277   defined in Debug\main.o section .text
+                                                *** not used ***
+f_RAM_Init                           0000d147   defined in Debug\sys_init.o section .text
+f_RKEBatteryVoltage                  0000c919   defined in Debug\rke_drv1.o section .text
+f_RKE_RECEIVE_RESET                  0000c801   defined in Debug\rke_drv1.o section .text
+                                                used in Debug\st79_it.o
+                                                        Debug\sys_init.o
+f_RKE_RECEIVE_STOP                   0000c845   defined in Debug\rke_drv1.o section .text
+                                                *** not used ***
+f_RKEnumberRead                      0000c3a8   defined in Debug\rke_drv1.o section .text
+                                                used in Debug\udsoncan.o
+f_RST_ClearFlag                      ********   *** removed from Debug\stm8_rst.o ***
+f_RST_GetFlagStatus                  ********   *** removed from Debug\stm8_rst.o ***
+f_ReadDTCquantity                    0000f8a7   defined in Debug\udsoncan.o section .text
+f_ReadDid22                          0000ed8f   defined in Debug\udsoncan.o section .text
+f_ReadDidvalue                       0000f0b0   defined in Debug\udsoncan.o section .text
+f_ResumeWindowDriverState            0000ba92   defined in Debug\lock_drv.o section .text
+f_RkeStudy                           0000c8a6   defined in Debug\rke_drv1.o section .text
+f_SAVE_BatterVol_CODE                0000c96c   defined in Debug\rke_drv1.o section .text
+f_SAVE_SERIAL_NUMBER                 0000c2d5   defined in Debug\rke_drv1.o section .text
+                                                used in Debug\main.o
+f_SAVE_SYNC_CODE                     0000c201   defined in Debug\rke_drv1.o section .text
+f_SAVEunlockdriverstate              0000c29a   defined in Debug\rke_drv1.o section .text
+                                                *** not used ***
+f_SFLED                              0000dc32   defined in Debug\turnlamp_drv.o section .text
+                                                used in Debug\main.o
+f_SPI_BiDirectionalLineConfig        ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_CalculateCRCCmd                ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_ClearFlag                      ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_ClearITPendingBit              ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_Cmd                            ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_DeInit                         ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_GetCRC                         ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_GetCRCPolynomial               ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_GetFlagStatus                  ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_GetITStatus                    ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_IRQHandler                     0000ce61   defined in Debug\st79_it.o section .text
+                                                *** not used ***
+f_SPI_ITConfig                       ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_Init                           ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_NSSInternalSoftwareCmd         ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_ReceiveData                    ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_ResetCRC                       ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_SendData                       ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_StructInit                     ********   *** removed from Debug\stm8_spi.o ***
+f_SPI_TransmitCRC                    ********   *** removed from Debug\stm8_spi.o ***
+f_SaveDTCtoBuff                      0000f61d   defined in Debug\udsoncan.o section .text
+f_SaveWindowDriverState              0000ba72   defined in Debug\lock_drv.o section .text
+f_ScanAllDoorState                   000108bc   defined in Debug\warm_drv.o section .text
+                                                used in Debug\main.o
+f_ScanAllLockState                   0000bbd9   defined in Debug\lock_drv.o section .text
+                                                used in Debug\main.o
+f_ScanBatteryVoltage                 0000b7c9   defined in Debug\defrost_drv.o section .text
+                                                used in Debug\main.o
+f_ScanCentralLockSwitch              0000bc7f   defined in Debug\lock_drv.o section .text
+                                                used in Debug\main.o
+f_ScanCrashInSignal                  0000baaf   defined in Debug\lock_drv.o section .text
+                                                used in Debug\main.o
+f_ScanDefrostSwitch                  0000b79a   defined in Debug\defrost_drv.o section .text
+                                                used in Debug\main.o
+f_ScanFortifySWState                 000107f5   defined in Debug\warm_drv.o section .text
+                                                used in Debug\main.o
+f_ScanH4021InData                    0000b89b   defined in Debug\horn_drv.o section .text
+                                                used in Debug\main.o
+f_ScanHazzardKeys                    0000d1e1   defined in Debug\turnlamp_drv.o section .text
+f_ScanHornSwitch                     0000b9be   defined in Debug\horn_drv.o section .text
+                                                used in Debug\main.o
+f_ScanIgnSwitch                      0000b8ec   defined in Debug\horn_drv.o section .text
+                                                used in Debug\main.o
+f_ScanKeyInState                     00010834   defined in Debug\warm_drv.o section .text
+                                                used in Debug\main.o
+f_ScanRkeKeys                        0000c50f   defined in Debug\rke_drv1.o section .text
+                                                used in Debug\main.o
+f_ScanSeatPositionState              00010abe   defined in Debug\warm_drv.o section .text
+                                                used in Debug\main.o
+f_ScanSeatbeltBuckleState            00010a3e   defined in Debug\warm_drv.o section .text
+                                                used in Debug\main.o
+f_ScanSmallLampSwitch                00010873   defined in Debug\warm_drv.o section .text
+                                                used in Debug\main.o
+f_ScanStandByCrashInSignal           0000bbc6   defined in Debug\lock_drv.o section .text
+                                                used in Debug\main.o
+f_ScanStandByDoorAjarSwitch          00010a25   defined in Debug\warm_drv.o section .text
+                                                used in Debug\main.o
+f_ScanStandByHazzardKeys             0000d24a   defined in Debug\turnlamp_drv.o section .text
+                                                used in Debug\main.o
+f_ScanStandbyIgnSwitch               0000b9af   defined in Debug\horn_drv.o section .text
+                                                used in Debug\main.o
+f_ScanStandbySmallLampSwitch         000108b2   defined in Debug\warm_drv.o section .text
+                                                *** not used ***
+f_ScanTrunkSwitch                    0000bdd4   defined in Debug\lock_drv.o section .text
+                                                used in Debug\main.o
+f_ScanTurnLampKeys                   0000d254   defined in Debug\turnlamp_drv.o section .text
+                                                used in Debug\main.o
+f_ScanTurnLampState                  0000d9fa   defined in Debug\turnlamp_drv.o section .text
+                                                used in Debug\main.o
+f_ScanWindowKeys                     00010da0   defined in Debug\window_drv.o section .text
+                                                used in Debug\main.o
+f_SendDTC                            0000b517   defined in Debug\can.o section .text
+                                                *** not used ***
+f_SystemClock                        00008ee1   defined in Debug\main.o section .text
+f_System_Init                        0000d05a   defined in Debug\sys_init.o section .text
+                                                used in Debug\main.o
+f_TIM1_CAP_COM_IRQHandler            0000ce63   defined in Debug\st79_it.o section .text
+                                                *** not used ***
+f_TIM1_UPD_OVF_TRG_BRK_IRQHandler    0000ce62   defined in Debug\st79_it.o section .text
+                                                *** not used ***
+f_TIM2_CAP_COM_IRQHandler            0000ce83   defined in Debug\st79_it.o section .text
+                                                used in Debug\stm8_interrupt_vector.o
+f_TIM2_CCR_WRITE                     0000982b   defined in Debug\timer2_3.o section .text
+                                                used in Debug\domelamp_drv.o
+f_TIM2_Clear_IT_Flag                 0000987c   defined in Debug\timer2_3.o section .text
+                                                used in Debug\st79_it.o
+f_TIM2_Counter_Cycle_OVIE_init       00009567   defined in Debug\timer2_3.o section .text
+                                                used in Debug\sys_init.o
+f_TIM2_Disable_IT                    000098a2   defined in Debug\timer2_3.o section .text
+                                                used in Debug\sys_init.o
+f_TIM2_Enable_IT                     00009894   defined in Debug\timer2_3.o section .text
+                                                *** not used ***
+f_TIM2_OCMP_Init                     000095cd   defined in Debug\timer2_3.o section .text
+                                                *** not used ***
+f_TIM2_PWM_Init                      000096f2   defined in Debug\timer2_3.o section .text
+                                                used in Debug\sys_init.o
+f_TIM2_UPD_OVF_BRK_IRQHandler        0000ce64   defined in Debug\st79_it.o section .text
+                                                used in Debug\stm8_interrupt_vector.o
+f_TIM3_CAP_COM_IRQHandler            0000cec5   defined in Debug\st79_it.o section .text
+                                                used in Debug\stm8_interrupt_vector.o
+f_TIM3_CCR_WRITE                     0000985b   defined in Debug\timer2_3.o section .text
+                                                *** not used ***
+f_TIM3_Clear_IT_Flag                 00009888   defined in Debug\timer2_3.o section .text
+                                                used in Debug\st79_it.o
+f_TIM3_Counter_Cycle_OVIE_init       0000959a   defined in Debug\timer2_3.o section .text
+                                                used in Debug\sys_init.o
+f_TIM3_Disable_IT                    000098aa   defined in Debug\timer2_3.o section .text
+                                                used in Debug\rke_drv1.o
+                                                        Debug\st79_it.o
+                                                        Debug\sys_init.o
+f_TIM3_Enable_IT                     0000989b   defined in Debug\timer2_3.o section .text
+                                                *** not used ***
+f_TIM3_OCMP_Init                     0000967b   defined in Debug\timer2_3.o section .text
+                                                used in Debug\sys_init.o
+f_TIM3_PWM_Init                      000097ac   defined in Debug\timer2_3.o section .text
+                                                *** not used ***
+f_TIM3_UPD_OVF_BRK_IRQHandler        0000cea2   defined in Debug\st79_it.o section .text
+                                                used in Debug\stm8_interrupt_vector.o
+f_TIM4_Clear_Int_Flag                0000d055   defined in Debug\st79_tim4.o section .text
+                                                used in Debug\st79_it.o
+f_TIM4_Init                          0000d038   defined in Debug\st79_tim4.o section .text
+                                                used in Debug\sys_init.o
+f_TIM4_UPD_OVF_IRQHandler            0000cfd6   defined in Debug\st79_it.o section .text
+                                                used in Debug\stm8_interrupt_vector.o
+f_TLI_IRQHandler                     0000c9c3   defined in Debug\st79_it.o section .text
+                                                *** not used ***
+f_TRAP_IRQHandler                    0000c9c2   defined in Debug\st79_it.o section .text
+                                                *** not used ***
+f_TRUNKwarm                          0000bffb   defined in Debug\lock_drv.o section .text
+                                                used in Debug\main.o
+f_Turnvcclow                         0000dcbe   defined in Debug\turnlamp_drv.o section .text
+                                                used in Debug\main.o
+f_UDSDTC9001                         0000fe60   defined in Debug\udsoncandtc.o section .text
+f_UDSDTC9003                         0000fef6   defined in Debug\udsoncandtc.o section .text
+f_UDSDTC9007                         000102bb   defined in Debug\udsoncandtc.o section .text
+f_UDSDTC900c                         000105c0   defined in Debug\udsoncandtc.o section .text
+f_UDSDTC9011                         00010165   defined in Debug\udsoncandtc.o section .text
+f_UDSDTC9015                         0000ff90   defined in Debug\udsoncandtc.o section .text
+f_UDSDTC9023                         00010210   defined in Debug\udsoncandtc.o section .text
+f_UDSDTC9043                         00010366   defined in Debug\udsoncandtc.o section .text
+f_UDSDTC9045                         0001048f   defined in Debug\udsoncandtc.o section .text
+f_UDSDTC9061                         0001048d   defined in Debug\udsoncandtc.o section .text
+f_UDSDTC9067                         0001048e   defined in Debug\udsoncandtc.o section .text
+f_UDSDTC9073                         0001056b   defined in Debug\udsoncandtc.o section .text
+f_UDSDTC9083                         0001010c   defined in Debug\udsoncandtc.o section .text
+f_UDSDTC9091                         000100b0   defined in Debug\udsoncandtc.o section .text
+f_UDSDTC9093                         00010408   defined in Debug\udsoncandtc.o section .text
+f_UDSDTC9111                         00010020   defined in Debug\udsoncandtc.o section .text
+f_UDSDTC_main                        0000fe06   defined in Debug\udsoncandtc.o section .text
+                                                used in Debug\main.o
+f_UDSDTCd001                         000105c1   defined in Debug\udsoncandtc.o section .text
+f_UDSDTCd002                         0001065c   defined in Debug\udsoncandtc.o section .text
+f_UDSDTCd003                         00010711   defined in Debug\udsoncandtc.o section .text
+f_UDSDTCd004                         0001075d   defined in Debug\udsoncandtc.o section .text
+f_UDSDTCd005                         000107a9   defined in Debug\udsoncandtc.o section .text
+f_UDSDiag10                          0000e977   defined in Debug\udsoncan.o section .text
+f_UDSDiag19                          0000f557   defined in Debug\udsoncan.o section .text
+f_UDSDiag22                          0000ead8   defined in Debug\udsoncan.o section .text
+f_UDSDiag27                          0000f8c6   defined in Debug\udsoncan.o section .text
+f_UDSDiag28                          0000ea17   defined in Debug\udsoncan.o section .text
+f_UDSDiag2e                          0000f502   defined in Debug\udsoncan.o section .text
+f_UDSDiag31                          0000ea61   defined in Debug\udsoncan.o section .text
+f_UDSDiag3e                          0000e9af   defined in Debug\udsoncan.o section .text
+f_UDSDiag85                          0000e9d7   defined in Debug\udsoncan.o section .text
+f_UDSclearDTC                        0000f5c5   defined in Debug\udsoncan.o section .text
+f_UDSonCANDiag                       0000e3d3   defined in Debug\udsoncan.o section .text
+                                                used in Debug\main.o
+f_UDSonCAN_netmain                   0000dd2d   defined in Debug\udsoncan.o section .text
+                                                used in Debug\main.o
+f_UDSsendone                         0000e93e   defined in Debug\udsoncan.o section .text
+f_USART_ClearFlag                    ********   *** removed from Debug\stm8_usart.o ***
+f_USART_ClearITPendingBit            ********   *** removed from Debug\stm8_usart.o ***
+f_USART_Cmd                          ********   *** removed from Debug\stm8_usart.o ***
+f_USART_DeInit                       ********   *** removed from Debug\stm8_usart.o ***
+f_USART_GetFlagStatus                ********   *** removed from Debug\stm8_usart.o ***
+f_USART_GetITStatus                  ********   *** removed from Debug\stm8_usart.o ***
+f_USART_HalfDuplexCmd                ********   *** removed from Debug\stm8_usart.o ***
+f_USART_ITConfig                     ********   *** removed from Debug\stm8_usart.o ***
+f_USART_Init                         ********   *** removed from Debug\stm8_usart.o ***
+f_USART_IrDACmd                      ********   *** removed from Debug\stm8_usart.o ***
+f_USART_IrDAConfig                   ********   *** removed from Debug\stm8_usart.o ***
+f_USART_LINBreakDetectionConfig      ********   *** removed from Debug\stm8_usart.o ***
+f_USART_LINCmd                       ********   *** removed from Debug\stm8_usart.o ***
+f_USART_RX_IRQHandler                0000cfd1   defined in Debug\st79_it.o section .text
+                                                *** not used ***
+f_USART_ReceiveData8                 ********   *** removed from Debug\stm8_usart.o ***
+f_USART_ReceiveData9                 ********   *** removed from Debug\stm8_usart.o ***
+f_USART_ReceiverWakeUpCmd            ********   *** removed from Debug\stm8_usart.o ***
+f_USART_SendBreak                    ********   *** removed from Debug\stm8_usart.o ***
+f_USART_SendData8                    ********   *** removed from Debug\stm8_usart.o ***
+f_USART_SendData9                    ********   *** removed from Debug\stm8_usart.o ***
+f_USART_SetAddress                   ********   *** removed from Debug\stm8_usart.o ***
+f_USART_SetGuardTime                 ********   *** removed from Debug\stm8_usart.o ***
+f_USART_SetPrescaler                 ********   *** removed from Debug\stm8_usart.o ***
+f_USART_SmartCardCmd                 ********   *** removed from Debug\stm8_usart.o ***
+f_USART_SmartCardNACKCmd             ********   *** removed from Debug\stm8_usart.o ***
+f_USART_StructInit                   ********   *** removed from Debug\stm8_usart.o ***
+f_USART_TX_IRQHandler                0000cfd0   defined in Debug\st79_it.o section .text
+                                                *** not used ***
+f_USART_WakeUpConfig                 ********   *** removed from Debug\stm8_usart.o ***
+f_WAKElin                            ********   *** removed from Debug\lin.o ***
+f_WWDG_GetControlValue               0000acd2   defined in Debug\stm8_wwdg.o section .text
+                                                *** not used ***
+f_WWDG_Init                          0000ac86   defined in Debug\stm8_wwdg.o section .text
+                                                used in Debug\main.o
+f_WWDG_Refresh                       0000acae   defined in Debug\stm8_wwdg.o section .text
+                                                used in Debug\main.o
+                                                        Debug\rke_drv1.o
+                                                        Debug\udsoncan.o
+f_WWDG_SWReset                       0000acd6   defined in Debug\stm8_wwdg.o section .text
+                                                *** not used ***
+f_WakeInit                           00008ecd   defined in Debug\main.o section .text
+                                                *** not used ***
+f_WakeUp                             00008eff   defined in Debug\main.o section .text
+                                                used in Debug\can.o
+                                                        Debug\st79_it.o
+f_WarmStatusArithmetic               0000c04a   defined in Debug\lock_drv.o section .text
+                                                used in Debug\main.o
+f_Weeprom                            0000fc0b   defined in Debug\udsoncan.o section .text
+                                                *** not used ***
+f_Weeprommain                        0000950a   defined in Debug\main.o section .text
+                                                used in Debug\udsoncan.o
+                                                        Debug\udsoncandtc.o
+f_WindowDown                         00010e25   defined in Debug\window_drv.o section .text
+f_WindowDriver                       00010e57   defined in Debug\window_drv.o section .text
+                                                used in Debug\main.o
+f_WindowStop                         00010e3a   defined in Debug\window_drv.o section .text
+                                                used in Debug\main.o
+f_WindowUp                           00010e10   defined in Debug\window_drv.o section .text
+f_WriteDTC                           0000b516   defined in Debug\can.o section .text
+                                                used in Debug\lin.o
+                                                        Debug\turnlamp_drv.o
+f__stext                             000081fb   defined in D:\Program Files\COSMIC\CXSTM8\Lib\crtsi.sm8 section .text
+                                                used in Debug\stm8_interrupt_vector.o
+f_assert_failed                      00009566   defined in Debug\main.o section .text
+                                                used in Debug\stm8_adc.o
+                                                        Debug\stm8_awu.o
+                                                        Debug\stm8_clk.o
+                                                        Debug\stm8_exti.o
+                                                        Debug\stm8_flash.o
+                                                        Debug\stm8_gpio.o
+                                                        Debug\stm8_itc.o
+                                                        Debug\stm8_iwdg.o
+                                                        Debug\stm8_linuart.o
+                                                        Debug\stm8_rst.o
+                                                        Debug\stm8_spi.o
+                                                        Debug\stm8_usart.o
+                                                        Debug\stm8_wwdg.o
+f_buzzdrv2                           00010c27   defined in Debug\warm_drv.o section .text
+                                                used in Debug\main.o
+f_clearCANrx                         0000b06a   defined in Debug\can.o section .text
+f_delay                              00008e8c   defined in Debug\main.o section .text
+                                                *** not used ***
+f_delay_10us                         00008eb6   defined in Debug\main.o section .text
+                                                used in Debug\horn_drv.o
+f_delay_ms                           00008e9f   defined in Debug\main.o section .text
+                                                *** not used ***
+f_exit                               00008245   defined in D:\Program Files\COSMIC\CXSTM8\Lib\crtsi.sm8 section .text
+f_leveonekeytest                     0000fc59   defined in Debug\udsoncan.o section .text
+                                                *** not used ***
+f_main                               00008f28   defined in Debug\main.o section .text
+                                                used in D:\Program Files\COSMIC\CXSTM8\Lib\crtsi.sm8
+f_turnbd                             0000db6d   defined in Debug\turnlamp_drv.o section .text
+                                                *** not used ***
+f_writeHazardecestate                0000b518   defined in Debug\can.o section .text
+                                                *** not used ***
+f_writeRearfogbutton                 0000b54b   defined in Debug\can.o section .text
+                                                *** not used ***
